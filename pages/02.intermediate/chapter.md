@@ -1,5 +1,5 @@
 ---
-title: Intermediate
+title: 'Developer Features'
 taxonomy:
     category:
         - docs
@@ -7,8 +7,12 @@ twittercardoptions: summary
 facebookenable: true
 ---
 
-### Chapter 2
-
-# Intermediate
-
-Delve deeper into more **complex** topics please thanks!
+- Multisig Contracts
+- Namespace
+- Mosaic
+- Messaging
+- Importance/Reputation
+- 2-Tiered Design
+- Easy APIs
+- NIS
+- Nanowallet
