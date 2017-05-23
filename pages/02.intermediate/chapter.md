@@ -7,6 +7,8 @@ twittercardoptions: summary
 facebookenable: true
 ---
 
+## Developer Centric Features
+
 - [Multisig Contracts]()
 - [Namespace]()
 - [Mosaic]()
