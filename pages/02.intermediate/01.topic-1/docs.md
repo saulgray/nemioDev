@@ -1,16 +1,18 @@
 ---
-title: Topic 1
+title: 'On-chain Multisig'
 taxonomy:
-    category: docs
+    category:
+        - docs
 process:
-	twig: true
+    markdown: true
+    twig: true
+twittercardoptions: summary
+facebookenable: true
 ---
 
-Lorem markdownum murmure fidissime suumque. Nivea agris, duarum longaeque Ide
-rugis Bacchum patria tuus dea, sum Thyneius liquor, undique. **Nimium** nostri
-vidisset fluctibus **mansit** limite rigebant; enim satis exaudi attulit tot
-lanificae [indice](http://www.mozilla.org/) Tridentifer laesum. Movebo et fugit,
-limenque per ferre graves causa neque credi epulasque isque celebravit pisces.
+Create your own  2fa account (multi-sig)
+NEM has on-blockchain multisig, with n of n, and m of n options. 2fa is just the start when it comes to the possibilities that our unique multisignature option offers.
+
 
 - Iasone filum nam rogat
 - Effugere modo esse
