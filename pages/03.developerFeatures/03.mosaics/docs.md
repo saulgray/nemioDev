@@ -1,7 +1,8 @@
 ---
-title: 'Topic 3'
+title: Mosaics
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 Lorem markdownum in maior in corpore ingeniis: causa clivo est. Rogata Veneri
