@@ -1,5 +1,5 @@
 ---
-title: Advanced
+title: 'Developer Bounties'
 taxonomy:
     category:
         - docs
