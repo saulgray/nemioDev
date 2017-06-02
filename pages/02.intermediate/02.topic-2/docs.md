@@ -1,5 +1,5 @@
 ---
-title: Topic 2
+title: 'Topic 2'
 taxonomy:
     category: docs
 ---
