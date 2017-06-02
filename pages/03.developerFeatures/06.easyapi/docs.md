@@ -1,5 +1,5 @@
 ---
-title: 'Importance / Reputation 2'
+title: 'Easy API'
 taxonomy:
     category:
         - docs
