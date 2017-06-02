@@ -1,10 +1,10 @@
 ---
-title: Basics
+title: 'Developer Tutorials'
 taxonomy:
     category: docs
 ---
 
-### Chapter 1
+### Developer Tutorials
 
 # Basics
 
