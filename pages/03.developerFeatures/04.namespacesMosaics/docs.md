@@ -1,5 +1,5 @@
 ---
-title: Namespaces
+title: 'Namespaces & Mosaics'
 taxonomy:
     category:
         - docs
