@@ -1,7 +1,8 @@
 ---
-title: 'Topic 4'
+title: Messaging
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 Lorem markdownum scire deposito manumque facinus. Opprobria sic Iris vimque
