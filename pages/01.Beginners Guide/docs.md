@@ -1,7 +1,10 @@
 ---
-title: ''
-body_classes: ''
-order_by: ''
-order_manual: ''
+title: 'Beginners Guide'
+taxonomy:
+    category:
+        - docs
 ---
 
+# Beginners Guide
+
+** Beginners Guide**
