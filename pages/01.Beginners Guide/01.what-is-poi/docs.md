@@ -1,5 +1,7 @@
 ---
 title: 'What is POI'
+taxonomy:
+    category: docs
 ---
 
 ![Logo of the first POI based P2P platform](http://i67.tinypic.com/15ps7sj.jpg)
