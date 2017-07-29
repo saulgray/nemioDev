@@ -1,5 +1,7 @@
 ---
 title: 'Install Java 8 on Windows'
+taxonomy:
+    category: docs
 ---
 
 You need Java&nbsp;8 64&nbsp;bit to run the installer, and even if you use stand alone, there are a few reasons to use Java&nbsp;8 (64&nbsp;bit) anyway, so in this guide, you will be brought through the process step by step.
