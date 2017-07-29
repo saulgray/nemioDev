@@ -1,57 +1,66 @@
 ---
-title: 'How Local and Delegated Havesting Work 2'
+title: 'How to "Mine" XEM'
 taxonomy:
     category: docs
 ---
 
-NEM has two different methods for harvesting: local and delegated harvesting. In this tutorial we will describe the differences and how each method works.
+Do you want to mine XEM? Fortunately NEM uses a new and improved consensus method called POI that is ultra-light and energy efficient.  For more about havesting on NEM (NEM's version of mining) please visit the following blogs. 
 
-#### What is harvesting?
-Harvesting in NEM is the process of generating blocks and earning the transaction fees in that block as a reward for the contributed work. The POI (Proof-of-Importance) algorithm determines who is allowed to generate a block (or more precisely: which generated block is considered as valid). To be able to harvest, the account needs a vested(!) balance of at least 10,000 XEM.  
-**Note:** Every 1440 blocks 1/10th of the unvested balance is moved to the vested part.
+* [What is Proof-of-Importance (POI) and Why Is It Better, and What Is Vesting?](http://blog.nem.io/what-are-poi-and-vesting/)
+* [How do I get importance and make more blocks on NEM?](https://blog.nem.io/how-do-i-get-importance-on-the-nem-blockchain/)
+* [How to Enroll and Participate in Supernodes](http://blog.nem.io/supernodes/)
 
-You can compare harvesting to mining in Bitcoin, although with harvesting you don't create new XEM coins, but only earn the transaction fees.
+But some people like the original POW style of mining. As mentioned above, NEM uses [harvesting](http://blog.nem.io/how-local-and-delegated-harvesting-works/) which works from an accounts importance, but if you are still interested in POW style mining with video cards or ASICs what you can do, however, is mine other altcoins and move them to XEM at their exchange rates automatically.
 
-#### Default method: local harvesting
-If you didn't activate *delegated harvesting* explicitly, the default method will be used which is *local harvesting*. This method works only while your computer is running and as long as you are not using a remote NIS (NEM Infrastructure Server). (In this tutorial we will not explain in which cases it can be useful to use a remote NIS and how this can be done. Please take a look at other tutorials, if you are interested.)
+This has two main advantages for both you and the NEM ecosystem.
 
-When you start *local harvesting* for an account, the private key of the account is passed to your locally running NIS. This is needed because NIS needs to sign generated blocks with your private key. The private key will of course not leave your computer at any time.
+You take advantage of NEM’s relatively stable/rising price for your asset holding.
+You slowly but surely increase the NEM market cap from the exchange rate of whatever coin to XEM.
 
-#### Alternative method: delegated harvesting
-If you are connected to a remotely located NIS ("remote NIS") and want to start harvesting, you cannot do this with the default method (local harvesting), because the NEM software will block this. The reason for blocking is simple: Your account's private key would be sent to the remote NIS (remember: it is needed to sign generated blocks) and this would be a serious security issue, because if somebody got ahold of your private key, that person would gain full control over your funds.
+So, without further ado, let’s get started switching your mining rigs to XEM.
 
-The solution is easy: Activate *delegated harvesting* before you start harvesting on a remote NIS. This step will initiate a block chain transaction and therefore costs a fee of 6 XEM. The activation has to be done only once for an account. After 360 confirmations (approx. 6 hours) the activation is complete and you can start harvesting. Once a remote NIS started harvesting, you can even shut down the NEM software on your local computer - the remote NIS will continue to harvest for your account as long as it is being operated.
+## Sign Up for Minergate
 
-For a detailed description how to start delegated harvesting, please see [here](http://blog.nem.io/how-to-use-delegated-harvesting/).
+[Signup Link](http://bit.ly/xemminer): Note that Minergate/Changelly are not endorsed by the NEM developers, use at your own risk.
 
-**Note:** If you activated *delegated harvesting* for an account, this doesn't mean you can only harvest on a remote NIS. It is still possible to harvest on your local NIS if you wish to do that.
-**Note 2:** You don't have to trust the remote NIS you are using. If it is acting fraudulent or it got hacked, your funds are not at risk. The worst thing a remote NIS can do is to pretend to harvest for you, but in reality it is not. If you want to know how that is possible, please read on.
+This service allows you to mine directly to Changelly, one of the exchanges with whom you can exchange NEM. This makes it so that you can withdraw your mining profits in XEM without having to sign up for another exchange!
 
-#### The 'magic' behind delegated harvesting
-Ok, you wanted to hear it:
-If you activate *delegated harvesting*, NCC (NEM Community Client) initiates an "importance transfer" transaction that is processed on the blockchain. This creates a mapping for the importance score of the account to an empty "proxy" account (balance: 0&nbsp;XEM). When the activation of *delegated harvesting* has completed and you start harvesting on a remote NIS, the private key of the "proxy" account is then passed to the remote NIS to sign generated blocks, but the fees you earn are still directly sent to the original account. With the private key of the "proxy" account it is not possible to transfer your importance score to any other account, and because it has a balance of zero, no funds can be stolen either. Isn't that beautiful?
+This is perfect for people who don’t want to sign up for an exchange but want XEM. Now it’s possible to mine to your NEM wallet.
 
-#### Conclusion
-Practically, what this means is that users can put their main account into an offline storage and use a proxy account to harvest on behalf of the offline storage account.
-For more information about how to connect to remote servers when using *delegated harvesting* please visit the tutorial on [connecting to a remote NIS](http://blog.nem.io/connecting-to-a-remote-server/).
+## CPU Mining
 
-**Local harvesting**  
-<font color="green">**+** No setup required - just click "Start local harvesting"</font>  
-<font color="red">**-** Not possible if you are using a remote NIS</font>  
-<font color="red">**-** No "offline harvesting", therefore higher costs for electricity if you use a regular computer</font>  
+Don’t have a GPU? No problem. You can download the MinerGate client from their website and turn on smart mining. It will automatically mine the coin that’s most profitable at the moment, so there’s nothing else to worry about.
 
-**Delegated harvesting**  
-<font color="green">**+** Always harvesting - even if your computer is turned off (a remote NIS is needed to harvest on your behalf)</font>  
-<font color="green">**+** Lower costs for electricity (if remote NIS runs on a VPS or micro computer like Raspberry Pi 2, Cubieboard 3 or similar)</font>  
-<font color="red">**-** Setup required (activation takes approx. 6 hours and costs a fee of 6 XEM)</font>
+![Miner Smart Mining](https://static.minergate.com/99184f5e3bdb0df0d5a6d9c8317fbf02.png)
 
-**Note:** Your harvesting chance will be the same for both methods.
+Happy CPU mining. Skip ahead in the article for information on how you can withdraw to your XEM wallet.
 
---------------------------------------------------
-In conclusion, here is a little bonus tutorial material. 
+## JavaScript Mining
 
-Here is a community made [video example](https://www.youtube.com/watch?v=7RdUXKu2SyU) (Sr. Yuba). 
+Don’t want to download anything? Just head over to the “Web Mining” tab of MinerGate and turn on Monero mining. At the time of writing this, it is the most profitable CPU coin. You’ll notice your shares to go up, and all you have to do to keep mining is keep the page open.
 
-Please give it a watch. 
+![Web Miner](http://i.imgur.com/PaKTx5U.png)
 
+Happy JavaScript/web mining! Skip ahead in the article for information on how you can withdraw to your NEM wallet.
 
+## GPU Mining
+
+If you already have GPU mining rigs, this is where the real profit’s at. Chances are that you already are mining Ethereum, so all you need to do at that point is point your miners to minergate.
+
+Ethminer: `ethminer -C -F http://eth.pool.minergate.com:55751/YOUR_EMAIL --disable-submit-hashrate` (GetWork)
+
+Genoil OpenCL: `ethminer -G -S eth.pool.minergate.com:45791 -O YOUR_EMAIL` (Stratum)
+
+Genoil CUDA: `ethminer -U -S eth.pool.minergate.com:45791 -O YOUR_EMAIL` (Stratum)
+
+If you already have GPU mining rigs but want a GUI for some reason, just follow the CPU mining instructions, but the GUI will mine with your GPU in smart mining.
+
+## Withdraw to XEM
+
+Alright, you’ve mined some coin, so now all you need to do is go sign up for [Changelly](https://changelly.com/) and tell them how much you want to withdraw to XEM. Then click through the prompts that ask where you want the XEM sent, etc. On the sending step, just click the minergate invoice button.
+
+![MinerGate Invoice Button](http://i.imgur.com/jL76bZW.png)
+
+Then just hit confirm, and you’ll receive your XEM shortly.
+
+*The NEM team would like to thank Nikhil J for this tutorial.*
