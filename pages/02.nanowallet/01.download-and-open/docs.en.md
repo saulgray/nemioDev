@@ -5,4 +5,3 @@ taxonomy:
         - docs
 ---
 
-Explain all the features of NEM via Nanowallet Tutorials
