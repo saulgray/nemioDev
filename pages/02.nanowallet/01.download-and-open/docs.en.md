@@ -1,5 +1,5 @@
 ---
-title: 'Nanowallet 2'
+title: 'Download and Open'
 taxonomy:
     category:
         - docs
