@@ -5,7 +5,6 @@ taxonomy:
         - docs
 ---
 
-
 If you run a NEM node (NIS) with either your [home computer](http://blog.nem.io/easy-configuration-guide-opening-port-7890/) or a free [Amazon t2.micro Linux VPS](http://blog.nem.io/create-a-linux-vps/) or a free [Amazon t2.micro Windows VPS](http://blog.nem.io/create-a-windows-vps/), you can connect to it remotely from anywhere as long as you know the IP address.   
  
 If you don't want to run your own server, take a look at the list of public NEM node IPs [here](http://www.nodeexplorer.com/) (this website is not run by the NEM team, so we cannot accept any responsibility for the content).  

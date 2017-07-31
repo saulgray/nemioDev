@@ -1,5 +1,5 @@
 ---
-title: 'Connect to Remote NIS 2'
+title: 'Send and Receive'
 taxonomy:
     category:
         - docs
