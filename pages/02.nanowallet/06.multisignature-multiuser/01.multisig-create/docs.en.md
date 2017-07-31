@@ -1,5 +1,5 @@
 ---
-title: 'Multisig Contracts'
+title: 'Create Multisig Account'
 taxonomy:
     category:
         - docs
