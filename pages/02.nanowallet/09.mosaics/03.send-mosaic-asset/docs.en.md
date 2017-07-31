@@ -1,5 +1,5 @@
 ---
-title: 'Create a Mosaic Asset 2'
+title: 'Send a Mosaic Asset'
 taxonomy:
     category:
         - docs
