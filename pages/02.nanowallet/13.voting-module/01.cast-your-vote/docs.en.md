@@ -5,7 +5,19 @@ taxonomy:
         - docs
 ---
 
-Thanks to the NEM Voting Module anyone can create and participate in polls using Blockchain technology.
+Voting and Viewing results
 
-The NEM voting platform is a new NanoWallet module that allows anybody to create and vote on polls stored on the NEM blockchain. The vote counting is made by the client with open source code, so that it is completely transparent. All the information is publicly available to everybody.
-NEM is ideal for a voting system due to the importance score inherent to every account on the network, which provides a very interesting way to weight votes.
+![](https://cdn-images-1.medium.com/max/800/1*MOQytjsc4jLbSElcUVxPWg.png)
+
+On the See Polls option you can observe a list of all the polls submitted to the current poll Index, Which at the start will be the default Index. If you click on any of the polls the details of the poll will be loaded from the blockchain and displayed. On the bottom there is a button for refreshing the polls on the index.
+
+voting on a poll
+![](https://cdn-images-1.medium.com/max/800/1*cKHybiTHhN9MsXcq3Sz4Gg.png)
+If everything is correct (you have voting permissions and you have not previously voted) you can send your vote.
+If you are cosignatory of a multisig account, you will see a multisig tab, where you can choose from all your multisig accounts and cast a vote for them, which will appear as a multisig transaction to all the cosignatories.
+On the options tab you can find a bar where you can input a NEM address pertaining to a poll or a poll Index to display them. You can also create a new poll Index and see a list of your created poll indexes if you have any.
+
+Results of a poll in the testnet
+![](https://cdn-images-1.medium.com/max/800/1*hkhMxDG-Y0FPPLuIg-v5-Q.png)
+You can display the results of the poll by going into the results tab. If the poll is ongoing the results are not definitive since they are checked on the current block, and importance scores are likely to change.
+If the poll has ended the results are definitive and are counted from historical data. The counting automatically pulls data from a node that has Historical data activated.
