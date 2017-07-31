@@ -1,5 +1,5 @@
 ---
-title: 'Nanowallet Explorer 2'
+title: 'Delegated Harvesting'
 taxonomy:
     category:
         - docs
