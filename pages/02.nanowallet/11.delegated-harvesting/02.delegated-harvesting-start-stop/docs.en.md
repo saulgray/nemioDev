@@ -22,5 +22,11 @@ One way of finding another node is to open [supernodes.nem.io](http://supernodes
 
 Another way to find nodes with free harvesting slots is the @NemNotificationsBot on Telegram. With the command /harvestingSpace it will provide you nodes with free slots. Read more about it [here](https://blog.nem.io/nem-chain-supernode-notifications-telegram-bot/).
 
+
+## Review Blocks Created
+You can later log in to the Dashboard of your NanoWallet and get a summary of the latest blocks and fees you have collected. 
+![checking your collected fees](http://i.imgur.com/JY8LbwQ.png)
+
 **Check your NanoWallet from time to time to see if harvesting is still ongoing. If the node you have selected restarts, you also have to start harvesting again! Meaning, as long as the node was on, it will continue to harvest for you for free, but if it reboots, you will have to request it to harvest for you again.**
 
+*The NEM Team would like to thank Patrick (Telegram: @Spizzerb) for contributing this blog.*
