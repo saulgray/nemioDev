@@ -1,5 +1,5 @@
 ---
-title: 'Backup Wallet 2'
+title: 'Connect to Remote NIS'
 taxonomy:
     category:
         - docs
