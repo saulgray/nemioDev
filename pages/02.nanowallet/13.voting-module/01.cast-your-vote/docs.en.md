@@ -1,5 +1,5 @@
 ---
-title: 'Voting Module 2'
+title: 'Casting Your Vote'
 taxonomy:
     category:
         - docs
