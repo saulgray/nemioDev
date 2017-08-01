@@ -1,5 +1,8 @@
 ---
 title: 'NEM''s Address Components'
+taxonomy:
+    category:
+        - docs
 ---
 
 ## Private key, public key, address
