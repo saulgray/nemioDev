@@ -1,5 +1,8 @@
 ---
 title: 'NEM''s API''s'
+taxonomy:
+    category:
+        - docs
 ---
 
 ## NEM API's
