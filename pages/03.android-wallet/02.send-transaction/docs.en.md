@@ -1,5 +1,5 @@
 ---
-title: 'Backup Wallet'
+title: 'Send Transaction'
 taxonomy:
     category:
         - docs
