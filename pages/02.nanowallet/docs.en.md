@@ -5,7 +5,8 @@ taxonomy:
         - docs
 ---
 
-Explain all the features of NEM via Nanowallet Tutorials
+The NEM Nanowallet is the officially supported client for Windows, Mac, and Linux. 
 
+The Nanowallet allows you to access lots of useful features such as multi-signature accounts, namespaces, notarization, and even the ability to buy currency directly from the wallet. These tutorials will guide you through installation, setup, and using features.
 
-It has been more than a year since the original LightWallet was released and since then NanoWallet has come a long way. NanoWallet is taking over from NCC as the desktop wallet in NEM and will be the officially supported client. The newest version, [Version 1.4.2](https://github.com/NemProject/NanoWallet/releases), has seen a lot of improvements, so here is a tutorial to help everyone get caught up. 
+The newest version is [Version 1.4.2](https://github.com/NemProject/NanoWallet/releases).
