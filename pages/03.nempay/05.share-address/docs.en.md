@@ -1,8 +1,8 @@
 ---
-title: 'Scanning QR 2'
+title: 'Share Address'
 taxonomy:
     category:
         - docs
 ---
 
-Scanning QR
+Share Address
