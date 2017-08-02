@@ -1,5 +1,5 @@
 ---
-title: 'Android Wallet 2'
+title: 'iPhone Wallet'
 taxonomy:
     category:
         - docs
