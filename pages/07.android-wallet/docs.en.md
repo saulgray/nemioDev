@@ -15,3 +15,6 @@ The new apps work in conjunction with the recently released [NanoWallet](https:/
 
 
 All private and important information is stored locally and never transmitted over the internet. 
+
+## Explore The Mobile Nem Wallet 
+The NEM mobile wallet is safe, fast, and has easy to use advanced features. The app is well-designed and comes with a lot packed into a small package that is innovative and useful in the real world.  
