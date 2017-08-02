@@ -6,7 +6,7 @@ taxonomy:
 ---
 
 ## 4 Send & receive
-From the Send & Receive tab you can create transactions and invoices. You can also create transactions with messages, encrypted messages and/or mosaics.
+From the Send & Receive tab you can create transactions and invoices. You can also create transactions with messages, encrypted messages and/or mosaics (assets.)
 
 You can read more about mosaics later in this guide.
 ![](http://imgur.com/8jafqGm.png)
