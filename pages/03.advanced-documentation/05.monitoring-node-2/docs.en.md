@@ -1,42 +1,84 @@
 ---
-title: 'Monitoring a Node 2'
+title: 'Setting up Environment'
 taxonomy:
     category:
         - docs
 ---
 
-## Monitoring your node
+In this chapter we'll start a NIS instance on the testnet, and we'll send it some requests. Let's start!
 
-NIS listens on port 7890, so a first way to monitor your node is to check that your server listens on that port.
-As an example we will configure [UptimeRobot](https://uptimerobot.com/) to monitor that port. This should give you 
-the required information to configure any other monitoring solution.
+## Using the docker container
 
-It is possible to get information from a running nis by sending HTTP requests. Several URLS are handled.
+We have already seen [how to run the docker containers]({{< relref "02-about.md#docker-config" >}}) accompanying this guide. Let's now use them!
 
-Status URLs will give JSON-formatted answers, and their meaning is detaild in the [NIS API documentation](http://bob.nem.ninja/docs/#nemRequestResult).
+As explained in the description of the docker image, we can start it with this command
+``` bash
+nem:~$ ndev
+```
 
-Node URLs will give information on the node, such as the version that it is running.
+We enter the container running NIS with
 
-### Status URL /heartbeat
+``` bash
+nem:~$ ndev -c nis bash
+```
 
-You configure your monitoring solution to send requests to the url `http://YOUR_IP:7890/heartbeat`. A NIS instance 
-receiving this request will answer if the node is up and able to answer to requests. 
+This drops you in a bash shell running in the container, where a NIS instance has been started on the testnet. You can validate that NIS 
+is running fine by running the command `ps aux` in the container. You should get an output similar to this:
+~~~ text
+root@adc93b7773f6:/# ps aux 
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.4  0.0  18240  3332 ?        Ss   13:09   0:00 bash
+root        18  0.1  0.4  56200 15436 ?        Ss   13:09   0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisord.conf
+nem         23  305  8.3 3608648 320760 ?      Sl   13:09   0:15 java -Xms512M -Xmx1G -cp .:./*:../libs/* org.nem.deploy.CommonStarter
+root        41  0.0  0.0  34424  2784 ?        R+   13:09   0:00 ps aux
+~~~
 
-In UptimRobot, the form configuring a new monitor hence looks like this:
-{{< figure src="/images/running_node_uptimerobot.png" title="UptimeRobot Monitor definition" >}}
+This shows that NIS is running (this is the `java -Xms512M -Xmx1G ...` process).
 
-### Status URL /status
+You can access the logs of NIS at `/var/log/nis-stderr.log`. Running `tail /var/log/nis-stderr.log  -f` should give you
+the latest logs of the NIS instance, with the ouput regularly updated with new log messages. The output should be similar 
+to this:
 
-The URL `/status` of your node returns a small JSON object giving some info on your node's status.
-Check the NIS API documentation linked above for its meaning.
+``` text
+root@adc93b7773f6:/# tail /var/log/nis-stderr.log  -f
+2017-04-01 13:26:22.571 INFO synchronizing with Node [TD52ELTYWFPK5F3ZXPOCH3UNJLF7YKA6JQKLO5O6 <TD52ELTYWFPK5F3ZXPOCH3UNJLF7YKA6JQKLO5O6>] @ [31.172.137.115] finished (org.nem.peer.services.NodeSynchronizer b)
+2017-04-01 13:26:25.572 INFO synchronizing with Node [Hi, I am MedAlice2 <TALIC37AGCDGQIBK3Y2IPFHSRAJ4HLJPNJDTSTJ7>] @ [23.228.67.85] (org.nem.peer.services.NodeSynchronizer b)
+2017-04-01 13:26:27.737 INFO received 400 blocks (11 transactions) in 892 ms from remote (81090 ?s/tx) (org.nem.nis.sync.BlockChainUpdater c)
+2017-04-01 13:26:27.958 INFO clustering completed: { clusters: 1 (average size: 5.00), hubs: 0, outliers: 255 } (org.nem.nis.pox.poi.PoiContext$AccountProcessor dh)
+2017-04-01 13:26:27.960 INFO Iterations required: 4; converged?: true (org.nem.nis.cx.na.rgm run)
+2017-04-01 13:26:27.960 INFO POI iterator needed 1ms. (org.nem.nis.pox.poi.PoiImportanceCalculator c)
+2017-04-01 13:26:28.036 INFO validated 400 blocks (11 transactions) in 296 ms (26909 ?s/tx) (org.nem.nis.sync.BlockChainUpdateContext fz)
+2017-04-01 13:26:28.036 INFO new block's score: 6066380584749751 (org.nem.nis.sync.BlockChainUpdateContext a)
+2017-04-01 13:26:28.208 INFO chain update of 400 blocks (11 transactions) needed 172 ms (15636 ?s/tx) (org.nem.nis.sync.BlockChainUpdateContext fz)
+2017-04-01 13:26:28.223 INFO synchronizing with Node [Hi, I am MedAlice2 <TALIC37AGCDGQIBK3Y2IPFHSRAJ4HLJPNJDTSTJ7>] @ [23.228.67.85] finished (org.nem.peer.services.NodeSynchronizer b)
+2017-04-01 13:26:31.223 INFO synchronizing with Node [Hi, I am BigAlice2 <TALICEQPBXSNJCZBCF7ZSLLXUBGUESKY5MZIA2IY>] @ [104.128.226.60] (org.nem.peer.services.NodeSynchronizer b)
+2017-04-01 13:26:32.152 INFO received 400 blocks (0 transactions) in 407 ms from remote (0 ?s/tx) (org.nem.nis.sync.BlockChainUpdater c)
+2017-04-01 13:26:32.344 INFO clustering completed: { clusters: 1 (average size: 5.00), hubs: 0, outliers: 255 } (org.nem.nis.pox.poi.PoiContext$AccountProcessor dh)
+2017-04-01 13:26:32.345 INFO Iterations required: 4; converged?: true (org.nem.nis.cx.na.rgm run)
+2017-04-01 13:26:32.345 INFO POI iterator needed 0ms. (org.nem.nis.pox.poi.PoiImportanceCalculator c)
+2017-04-01 13:26:32.436 INFO validated 400 blocks (0 transactions) in 281 ms (0 ?s/tx) (org.nem.nis.sync.BlockChainUpdateContext fz)
+2017-04-01 13:26:32.436 INFO new block's score: 5957781278529360 (org.nem.nis.sync.BlockChainUpdateContext a)
+2017-04-01 13:26:32.600 INFO chain update of 400 blocks (0 transactions) needed 164 ms (0 ?s/tx) (org.nem.nis.sync.BlockChainUpdateContext fz)
+2017-04-01 13:26:32.618 INFO synchronizing with Node [Hi, I am BigAlice2 <TALICEQPBXSNJCZBCF7ZSLLXUBGUESKY5MZIA2IY>] @ [104.128.226.60] finished (org.nem.peer.services.NodeSynchronizer b)
 
-### Status URL /node/info
+```
+We see here that our NIS instance is communicating with other instances (`synchronizing with Node [Hi, I am MedAlice2...`), downloading blocks (`received 400 blocks`), validating downloaded blocks (`validated 400 blocks`), updating the blockchain with validated blocks (`chain update of 400 blocks`), etc
 
-A request sent to that URL gets a JSON-formatted response, giving basic information on the node, such as its version
-and the network it is running on (mainnet, testnet)
-{{< httpie "code/running_node_info.html" >}}
+{{% notice note  %}}
+Should you wish to start the containers without starting NIS, you can do that by passing `--no-nis` as first argument to the ndev command.
+{{% /notice  %}}
 
 
-### Status URL /node/extended-info
-The extended-info URL gives a bit more information. Check for yourself if this is interesting to you:
-{{< httpie "code/running_node_extended_info.html" >}}
+## First request
+
+As our NIS instance is up and running, we can send our first request to it. We can send request to the NIS instance on port 7890 of localhost, 
+from the host or from the tools container.
+
+We'll use [httpie](https://httpie.org/), which is already installed in the tools.
+Our first request will be to [get the status](http://bob.nem.ninja/docs/#status-request)  of the NIS instance with a `GET` request to `/status`. Here's the result:
+
+{{< httpie "code/setup_status.html" >}}
+
+As usual, this excerpt shows the command executed a well as the request and response headers and body (this will not be repeated in the rest of the document).
+The request is sent to `:7890/status`, which is an httpie shortcut for path `/status` on port `7890` of `localhost`.
+We get code 5, meaning the node is booted. Other possible [codes are described in the API reference documentation](http://bob.nem.ninja/docs/#status-request).
