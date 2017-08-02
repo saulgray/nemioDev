@@ -1,8 +1,8 @@
 ---
-title: 'Install and Open 2'
+title: 'Sending XEM'
 taxonomy:
     category:
         - docs
 ---
 
-Install and Open
+Sending XEM
