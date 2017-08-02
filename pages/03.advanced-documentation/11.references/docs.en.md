@@ -5,7 +5,6 @@ taxonomy:
         - docs
 ---
 
-
 Here are links that you most certainly will be interested in as a developer.
 
 ### Papers
