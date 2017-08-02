@@ -1,8 +1,8 @@
 ---
-title: 'NEMpay 2'
+title: 'Install and Open'
 taxonomy:
     category:
         - docs
 ---
 
-About NEMpay
+Install and Open
