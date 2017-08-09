@@ -1,5 +1,5 @@
 ---
-title: 'Private Key 2'
+title: Addresses
 taxonomy:
     category:
         - docs
