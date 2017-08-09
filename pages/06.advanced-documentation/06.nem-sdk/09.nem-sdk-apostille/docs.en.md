@@ -5,8 +5,6 @@ taxonomy:
         - docs
 ---
 
-## 10 - Apostille
-
 **Namespace**: `nem.model.apostille`
 
 **Public methods**:
