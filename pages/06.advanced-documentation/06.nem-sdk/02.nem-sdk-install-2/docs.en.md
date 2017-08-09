@@ -1,95 +1,124 @@
 ---
-title: 'Introduction 2'
+title: Objects
 taxonomy:
     category:
         - docs
 ---
 
-### 1.1 - Installation
+## 2 - Objects
 
-#### For the browser:
+**Namespace**: `nem.model.objects`
 
-Download the library source, open the `dist/` folder and put `nem-sdk.js` into your project.
+This namespace allow to easily `get` or `create` objects to use in the SDK. Each object is accessible via a keyword.
 
-Library include the `require()` function so you can `require()` the module directly
+**Public methods**:
+- `get`
+- `create`
 
-```html
-<script src="nem-sdk.js"></script>
-<script>
-  // Include the library
-  var nem = require("nem-sdk").default;
-  console.log(nem)
-</script>
-```
+**Keywords**:
+- `common`: An object to hold password and private key
+- `endpoint`: An object containing info about a remote node
+- `mosaicAttachment`: An object containing mosaic data to join in a transfer transaction
+- `mosaicDefinitionMetaDataPair`: An object of objects containing mosaics properties
+- `invoice`: An invoice object working on NEM mobile clients
+- `transferTransaction`: An un-prepared transfer transaction object
+- `signatureTransaction`: An un-prepared signature transaction object
 
-#### For Node:
+### 2.1 - Get objects
 
-##### Using npm:
+Return an empty object
 
-`npm install nem-sdk`
-
-```javascript
-// Use require
-var nem = require("nem-sdk").default;
-```
+#### Usage:
 
 ```javascript
-// ES6
-import nem from 'nem-sdk';
+// Get an empty object
+var object = nem.model.objects.get("keyword");
 ```
 
-##### Using `build/` folder:
+#### Example:
 
 ```javascript
-// Use the build/ folder
-var nem = require("path/to/build/index.js").default;
-``` 
-### 1.2 - Build
+// Get an empty object
+var transferTransaction = nem.model.objects.get("transferTransaction");
+```
+#### Return:
 
-#### Install dependencies:
+```json
+{
+    "amount": "",
+    "recipient": "",
+    "recipientPublicKey": "",
+    "isMultisig": false,
+    "multisigAccount" : "",
+    "message": "",
+    "isEncrypted" : false,
+    "mosaics": []
+}
+```
 
-```npm install```
+### 2.2 - Create objects
 
-#### Build:
+Return an object with parameters.
 
-```npm run build```
+Using the `create` method takes different parameters depending of the object.
 
-#### Build for the browser (after above build):
+#### Parameters
 
-```npm run browserify```
+##### `common`
+Name           | Type             | Description   |
+---------------|------------------|---------------|
+password       | string           | A password    |
+privateKey     | string           | A private key |
 
-### 1.3 - Organisation
+##### `endpoint`
+Name           | Type             | Description   |
+---------------|------------------|---------------|
+host           | string           | An NIS uri    | 
+port           | string           | An NIS port   |
 
-The SDK is organised in namespaces and sub-namespaces. 
+##### `mosaicAttachment`
+Name           | Type             | Description               |
+---------------|------------------|---------------------------|
+namespaceId    | string           | A namespace name          | 
+mosaicName     | string           | A mosaic name             | 
+quantity       | long number      | A quantity in micro-units |
 
-There is 4 main namespaces:
+##### `transferTransaction`
+Name           | Type             | Description               |
+---------------|------------------|---------------------------|
+recipient      | string           | A recipient address       | 
+amount         | number           | An amount                 | 
+message        | string           | A message to join         |
 
-#### `nem.com`
-- `requests`: Requests to NIS and the outside world
-- `websockets`: Connection, subscription and requests to NIS websockets
+#### Usage:
 
-#### `nem.crypto`
-- `keyPair`: Functions to create keypair from hex and sign data with it
-- `helpers`: Miscellaneous cryptographic functions, like encrypt private key, decrypt a wallet, derive a password...
-- `nacl`: External cryptographic library modified for NEM
-- `js`: Access to the crypto-js library
+```javascript
+// Create an object with parameters
+var object = nem.model.objects.create("keyword")(param1, param2, ...);
+```
 
-#### `nem.model`
-- `address`: Functions regarding NEM addresses like base32 encoding / decoding, verify, convert public key to address...
-- `objects`: Contains usesul objects models
-- `fees`: Contains all the transaction fees and calculation functions
-- `network`: Contains networks types and functions related
-- `nodes`: Contains array of nodes for different networks, default nodes, search by hash nodes...
-- `sinks`: Contains the sink addresses for namespaces and mosaics by network
-- `transactions`: Contains functions to prepare and send transaction objects
-- `transactionTypes`: Contains all the NEM transactions types
-- `wallet`: Contains functions to create wallets
+#### Example:
 
-#### `nem.utils`
-- `convert`: Contains convertion functions
-- `helpers`: Contains miscellaneous helper functions
-- `format`: Contains miscellaneous formatting functions
-- `nty`: Contains functions to build nty data
-- `Serialization`: Contains functions to serialize transactions
+```javascript
+// Create an object with parameters
+var transferTransaction = nem.model.objects.create("transferTransaction")("TBCI2A67UQZAKCR6NS4JWAEICEIGEIM72G3MVW5S", 10, "Hello");
+```
 
-Consult the code directly for details, almost all functions are commented, with parameters, return values and types. 
+#### Return:
+
+```json
+{
+    "amount": 10,
+    "recipient": "TBCI2A67UQZAKCR6NS4JWAEICEIGEIM72G3MVW5S",
+    "recipientPublicKey": "",
+    "isMultisig": false,
+    "multisigAccount" : "",
+    "message": "Hello",
+    "isEncrypted" : false,
+    "mosaics": []
+}
+```
+
+### 2.3 - More
+
+Consult `src/model/objects.js` for details about objects and creation parameters
