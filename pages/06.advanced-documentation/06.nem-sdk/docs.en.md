@@ -31,5 +31,5 @@ This SDK is just a "draft" for now, lot of things will change as development and
 - Commented code and examples
 - Browser examples ready to use out of the box
 
-[NEM-sdk NPM Package](https://www.npmjs.com/package/nem-sdk)
-[NEM-sdk Github Repository](https://github.com/QuantumMechanics/NEM-sdk)
+* [NEM-sdk NPM Package](https://www.npmjs.com/package/nem-sdk)
+* [NEM-sdk Github Repository](https://github.com/QuantumMechanics/NEM-sdk)
