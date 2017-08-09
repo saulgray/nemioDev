@@ -1,5 +1,5 @@
 ---
-title: 'NEM-sdk 2'
+title: Introduction
 taxonomy:
     category:
         - docs
