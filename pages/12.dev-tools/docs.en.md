@@ -1,5 +1,7 @@
 ---
 title: 'Dev Tools'
+taxonomy:
+    category: docs
 ---
 
 * [NEM Modules (Java)](https://github.com/NemProject/nem.modules)
