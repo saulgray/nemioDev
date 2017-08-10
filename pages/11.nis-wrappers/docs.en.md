@@ -1,5 +1,5 @@
 ---
-title: 'Community Apps 2'
+title: 'NIS Wrappers'
 ---
 
 * [PacNEM - Pacman meets NEM](https://forum.nem.io/t/pacnem-pacman-meets-nem-beta-testing/6412)
