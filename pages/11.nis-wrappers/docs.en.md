@@ -1,5 +1,5 @@
 ---
-title: 'Dev Tools'
+title: 'NIS Wrappers'
 ---
 
 Below are a list of Community built wrappers for NEM's API. These wrappers make it easy to start building apps in your prefered language.
