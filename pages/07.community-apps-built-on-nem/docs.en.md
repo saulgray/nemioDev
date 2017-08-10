@@ -1,5 +1,7 @@
 ---
 title: 'Community Apps'
+taxonomy:
+    category: docs
 ---
 
 * [PacNEM - Pacman meets NEM](https://forum.nem.io/t/pacnem-pacman-meets-nem-beta-testing/6412)
