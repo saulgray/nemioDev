@@ -1,5 +1,5 @@
 ---
-title: 'Block & Node Explorers'
+title: 'Whitepapers & Guides'
 taxonomy:
     category:
         - docs
