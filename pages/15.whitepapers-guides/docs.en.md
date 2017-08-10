@@ -1,5 +1,5 @@
 ---
-title: 'Tutorials 2'
+title: 'Whitepapers & Guides'
 taxonomy:
     category: docs
 ---
