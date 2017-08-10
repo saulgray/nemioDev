@@ -6,7 +6,7 @@ taxonomy:
 ---
 
 *     [Dev Updates]()
-*     Catapult Whitepaper
+*     [Catapult Whitepaper]()
 *     Technical Reference
 *     Radicalizing the Equity Markets
 *     Apostille Whitepaper
