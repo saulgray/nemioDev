@@ -14,8 +14,6 @@ taxonomy:
 * [Creating Testnet Faucet](https://blog.nem.io/creating-a-testnet-faucet-for-xem-and-mosaic-assets/)
 * [Make paper wallet generator](https://blog.nem.io/paper_wallet_generator/)
 * [Wordpress NEM Plugin](https://blog.nem.io/wordpress-payment-gateway/)
-
-
 *     [Delete Database](https://blog.nem.io/how-to-remove-old-nem-software-versions/)
 *     [Import Database](https://blog.nem.io/how-to-import-the-database-file-provided-by-developers/)
 *     [Remove old NCC/NIS](https://blog.nem.io/how-to-remove-old-nem-software-versions/)
