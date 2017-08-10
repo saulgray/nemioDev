@@ -1,18 +1,20 @@
 ---
-title: 'Whitepapers & Guides'
+title: 'Block & Node Explorers'
 taxonomy:
-    category:
-        - docs
+    category: docs
 ---
 
-*     [Dev Updates](https://forum.nem.io/t/stories-from-the-dev-front-diary/2641?u=jabo38)
-*     [Catapult Whitepaper](https://nem.io/catapultwhitepaper.pdf)
-*     [Technical Reference](https://nem.io/NEM_techRef.pdf)
-*     [Radicalizing the Equity Markets](https://nem.io/RadicalizingEquityMarket.pdf)
-*     [Apostille Whitepaper](https://nem.io/ApostilleWhitePaper.pdf)
-*     [P2P Time Synce for Nodes](https://blog.nem.io/first-ever-p2p-time-sync-for-nodes/)
-*     [Starting a NEM Project](https://medium.com/@aleixmorgadas/how-to-start-a-nem-project-a622fa67e7be)
+### Block Explorers
+*  [chain.nem.ninja](http://chain.nem.ninja/#/blocks/0)
+*  [explorer.ournem.com](http://explorer.ournem.com/)
 
-*     Comparing NEM to:
-	* [Factom vs NEM](https://blog.nem.io/factom_vs_apostille/)
-	* [Ethereum vs NEM](https://blog.nem.io/ethereum-versus-nem-the-obvious-choice/)
+### Node Explorers
+*  [nodeexplorer.com](https://nodeexplorer.com/)
+* .[nemnodes.org](https://nemnodes.org/monitor/)
+
+### Account Explorer
+* [nember.ru](http://nember.ru/#/)
+
+### Testnet Explorer
+* [bob.nem.ninja](http://bob.nem.ninja:8765/#/blocks/0)
+* 
