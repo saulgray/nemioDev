@@ -1,5 +1,5 @@
 ---
-title: 'Local NIS Delegated Harvesting 2'
+title: 'Benefits of Delegated Harvesting'
 taxonomy:
     category:
         - docs
