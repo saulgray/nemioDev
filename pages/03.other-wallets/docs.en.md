@@ -1,5 +1,5 @@
 ---
-title: Wallets
+title: 'Other Wallets'
 taxonomy:
     category: docs
 ---
