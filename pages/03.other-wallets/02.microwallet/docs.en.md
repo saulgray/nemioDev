@@ -5,4 +5,4 @@ taxonomy:
         - docs
 ---
 
-About NEMpay
+[Microwallet Source](https://github.com/anrodon/nem-microwallet/releases)
