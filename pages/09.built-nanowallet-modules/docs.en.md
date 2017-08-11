@@ -1,5 +1,5 @@
 ---
-title: 'Community Built Nanowallet Modules'
+title: 'Community Nanowallet Modules'
 taxonomy:
     category:
         - docs
