@@ -1,5 +1,5 @@
 ---
-title: 'NEM Development Basics (Docker)'
+title: 'NEM Dev Basics (Docker)'
 taxonomy:
     category:
         - docs
