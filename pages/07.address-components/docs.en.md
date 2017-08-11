@@ -1,5 +1,5 @@
 ---
-title: 'NEM''s Address Components'
+title: 'Address Components'
 taxonomy:
     category:
         - docs
