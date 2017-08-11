@@ -1,5 +1,5 @@
 ---
-title: 'NEM''s Transaction Components'
+title: 'Transaction Components'
 taxonomy:
     category:
         - docs
