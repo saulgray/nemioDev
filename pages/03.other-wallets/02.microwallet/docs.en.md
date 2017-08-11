@@ -1,5 +1,5 @@
 ---
-title: 'NEMpay 2'
+title: Microwallet
 taxonomy:
     category:
         - docs
