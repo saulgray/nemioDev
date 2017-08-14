@@ -1,5 +1,5 @@
 ---
-title: Advanced Topic 2
+title: 'Advanced Topic 2'
 taxonomy:
     category: docs
 ---
