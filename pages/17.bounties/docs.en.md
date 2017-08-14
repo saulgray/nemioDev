@@ -1,10 +1,8 @@
 ---
-title: 'Developer Bounties'
+title: Bounties
 taxonomy:
     category:
         - docs
 ---
-
-# Developer Bounties
 
 ** Developer Bounty Intro**
