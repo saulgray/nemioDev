@@ -26,3 +26,5 @@ You can buy or sell XEM at many third-party exchange websites.
 [Litebit](https://www.litebit.eu/en)
 
 [Bter](https://bter.com/)
+
+Note that any XEM stored on third-party sites are not fully under your control. For added safety we recommend you transfer them to your NanoWallet when you are not actively trading.
