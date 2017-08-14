@@ -5,24 +5,24 @@ taxonomy:
         - docs
 ---
 
-You can buy or sell XEM at many online exchange websites.
+You can buy or sell XEM at many third-party exchange websites.
 
 [POLONIEX](https://poloniex.com/)
 
-BTC38
+[BTC38](http://www.btc38.com/trade_en.html)
 
-BITCOIN.co.id
+[BITCOIN.co.id](https://www.bitcoin.co.id/)
 
-Changelly
+[Changelly](https://changelly.com/)
 
-Alcurex
+[Alcurex](https://alcurex.com/#BLC-BTC)
 
-BITTREX
+[BITTREX](https://bittrex.com/)
 
-ZAIF
+[ZAIF](https://zaif.jp/?lang=en)
 
-HitBTC
+[HitBTC](https://hitbtc.com/)
 
-Litebit
+[Litebit](https://www.litebit.eu/en)
 
-Bter
+[Bter](https://bter.com/)
