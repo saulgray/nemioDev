@@ -23,7 +23,7 @@ jscomments:
 * Please make project proposals to jabo38 before starting. Suggestions for new ideas are welcome too! Blogs should be written in Markdown (also the language of this forum for posting) and images for blogs hosted in the cloud. Previewing a blog written in Markdown can be done on http://dillinger.io/10.
 
 * How to use NEM mosaics as in-game currency (use an open source JS game and reward high scores with mosaics that can be exchanged for badges). Bounty: 75,000 XEM (currently being worked on but possible to add additional projects. Please contact @jabo38 on Telegram for more details)
-* 
+
 * How to create an inventory app using NEM (simple UI that allows the transfer of mosaic assets between “warehouses” -> addresses). Bounty: 150,000 XEM (currently being worked on)
 
 * Build an alias/DNS module for NanoWallet similar to Emercoin's DNS. (on hold)
