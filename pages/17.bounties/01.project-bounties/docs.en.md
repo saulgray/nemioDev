@@ -6,6 +6,7 @@ taxonomy:
         - docs
 jscomments:
     active: true
+    enabled: true
     provider: discourse
     title: 'NEM’s Prototype Project Bounty Program'
     url: 'https://forum.nem.io/t/nem-s-prototype-project-bounty-program/2822'
