@@ -1,5 +1,6 @@
 ---
 title: 'Project Bounties'
+published: true
 taxonomy:
     category:
         - docs
