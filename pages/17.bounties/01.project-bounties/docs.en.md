@@ -3,6 +3,10 @@ title: 'Project Bounties'
 taxonomy:
     category:
         - docs
+jscomments:
+    active: true
+    provider: discourse
+    url: 'https://forum.nem.io/t/nem-s-prototype-project-bounty-program'
 ---
 
 #### The NEM team will be giving bounties for the following projects. 
