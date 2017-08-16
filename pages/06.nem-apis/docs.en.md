@@ -7,6 +7,6 @@ taxonomy:
 
 ## NEM API's
 * NEM NIS API
-[plugin:embed](https://nemproject.github.io/)
+* [plugin:embed](https://nemproject.github.io/)
 * NEM Core API
 * Mijin API
