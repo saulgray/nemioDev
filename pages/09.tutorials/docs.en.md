@@ -29,8 +29,8 @@ taxonomy:
 [plugin:embed](https://blog.nem.io/how-to-remove-old-nem-software-versions/)
 ##### Import Database
 [plugin:embed](https://blog.nem.io/how-to-import-the-database-file-provided-by-developers/)
-
-[Remove old NCC/NIS](https://blog.nem.io/how-to-remove-old-nem-software-versions/)
+##### Remove old NCC/NIS
+[plugin:embed](https://blog.nem.io/how-to-remove-old-nem-software-versions/)
 
 [Styling Node name](https://blog.nem.io/how-to-make-your-node-name-appear-in-color-on-the-nem-block-explorer/)
 
