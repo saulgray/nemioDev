@@ -12,4 +12,4 @@ taxonomy:
 ##### Host a NIS Node on Raspberry Pi
 [plugin:embed](https://forum.nem.io/t/running-a-nem-node-on-a-raspberry-pi/4554)
 ##### Host a NIS Node on AWS
-[plugin:embed](https://blog.nem.io/amazon-aws-ec2-supernode/)
+[plugin:embed](https://blog.nem.io/amazon-aws-ec2-supernode)
