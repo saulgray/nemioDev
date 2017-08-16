@@ -18,5 +18,5 @@ Below are a list of Community built wrappers for NEM's API. These wrappers make 
 [plugin:embed](https://github.com/44uk/nis-ruby)
 ##### PHP
 [plugin:embed](https://github.com/namuyan/NEM-Api-Library)
-[plugin:embed](https://github.com/tomotomo9696/NEMTools_PHPhttps://github.com/evias/php-nem-laravel)
+[plugin:embed](https://github.com/tomotomo9696/NEMTools_PHP)
 [plugin:embed](https://github.com/evias/php-nem-laravel)
