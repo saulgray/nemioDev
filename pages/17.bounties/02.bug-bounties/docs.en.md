@@ -5,7 +5,7 @@ taxonomy:
         - docs
 twig_feeds:
     -
-        source: 'https://wtfpod.libsyn.com/rss'
+        source: 'https://forum.nem.io/t/nem-development-101-episode-01-java-git-maven-nem-core/1656.rss'
         end: 2
 ---
 
