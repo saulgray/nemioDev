@@ -1,10 +1,8 @@
 ---
-title: 'Beginners Guide'
+title: 'General Information'
 taxonomy:
     category:
         - docs
 ---
 
-# Beginners Guide
-
-** Beginners Guide**
+** General Info **
