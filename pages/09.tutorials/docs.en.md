@@ -11,6 +11,7 @@ taxonomy:
 [plugin:embed](https://forum.nem.io/t/nem-development-101-episode-02-idea-intellij-nem-core-vanity-gen/1665)
 #### Host a NIS Node on VPS
 [plugin:embed](https://forum.nem.io/t/nem-supernode-command-line-tutorial-for-debian-8-4/2211)
+#### Host a NIS Node on Raspberry Pi
 [plugin:embed](https://forum.nem.io/t/running-a-nem-node-on-a-raspberry-pi/4554)
 * [Host a NIS Node on AWS](https://blog.nem.io/amazon-aws-ec2-supernode/)
 * [Host a NIS Node on Azure](https://blog.nem.io/azure-supernode/)
