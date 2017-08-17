@@ -1,9 +1,8 @@
 ---
-title: 'FAQ 2'
+title: 'Is NEM a cryptocurrency?'
 taxonomy:
     category:
         - docs
 ---
 
-Port this here when approved as complete
-https://docs.google.com/document/d/12vHX0S6QWIbZW-PZUGhHLUML9B72L7MGLMWivW4LNo4/edit
+NEM is not just a crypto currency. NEM is a blockchain project which caters to much more than only handling it's native currency tokens "XEM". Above that, and more importantly, NEM is a peer to peer platform and it provides services like payments, messaging, asset making, and naming system. There shall be a lot more to come as NEM is an evolving solution with an outstanding core blockchain technology.
