@@ -11,5 +11,4 @@ taxonomy:
 [plugin:embed](https://github.com/QuantumMechanics/NEM-sdk/tree/master/examples/browser)
 ##### NEM Nanowallet Snippets
 [plugin:embed](https://github.com/AtrauraBlockchain/NEM-NanoSnippets/wiki)
-##### NEM Snippets (Docker)
-[plugin:embed](https://rb2nem.github.io/nem-dev-guide/90-snippets/)
+##### [NEM Snippets (Docker)](https://rb2nem.github.io/nem-dev-guide/90-snippets/)
