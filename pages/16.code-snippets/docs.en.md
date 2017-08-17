@@ -12,3 +12,5 @@ taxonomy:
 ##### NEM Nanowallet Snippets
 [plugin:embed](https://github.com/AtrauraBlockchain/NEM-NanoSnippets/wiki)
 ![](https://rb2nem.github.io/nem-dev-guide/90-snippets/)
+
+![](https://www.flickr.com/photos/chris_gin/6585842063)
