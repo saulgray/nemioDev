@@ -1,5 +1,5 @@
 ---
-title: 'Is NEM a cryptocurrency? 2'
+title: 'Why should I use NEM when there is Bitcoin?'
 taxonomy:
     category:
         - docs
