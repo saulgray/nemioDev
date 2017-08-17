@@ -1,7 +1,8 @@
 ---
 title: 'FAQ 2'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 Port this here when approved as complete
