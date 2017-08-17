@@ -6,9 +6,9 @@ taxonomy:
 ---
 
 ### Where can I spend my XEMs? 
-* http://mynem.store , sell NEM related products such as mugs, hats and accepts XEM as a payment
-* https://www.zazzle.com.au/kurinoya 
-* www.nembid.xyz , similar to eBay that accepts XEM as a payment.
+* [mynem.store](http://mynem.store) , sell NEM related products such as mugs, hats and accepts XEM as a payment
+* [zazzle](https://www.zazzle.com.au/kurinoya) 
+* [nembid](www.nembid.xyz) , similar to eBay that accepts XEM as a payment.
 
 ### How do I invest in XEM? Where can I buy XEM?
 
