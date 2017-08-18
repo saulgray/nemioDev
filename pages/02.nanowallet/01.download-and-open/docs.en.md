@@ -10,5 +10,5 @@ Before you install NanoWallet, make sure you are using a computer which is clean
  
 Download the NanoWallet from [nem.io](https://www.nem.io/install.html). Extract the zip file and double-click "start.html"  
 
-**Do not use Microsoft Edge browser, it can result in the loss of your wallet. We recommend Google Chrome or Firefox.**
+**Please do not use Microsoft Edge browser, it can result in the loss of your wallet. We recommend Google Chrome or Firefox.**
  
