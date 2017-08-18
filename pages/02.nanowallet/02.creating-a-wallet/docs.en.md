@@ -16,4 +16,5 @@ In this guide, we will create a simple wallet. If you want to learn about the di
 2. Enter a wallet name. Example: LonsFirstWallet
 3. Choose a network. Mainnet is recommended for most users. (Testnet is for software testing only. Mijin is for permissioned chains.)
 4. Enter a password. Example: correcthorsebatterystaple
+5. Press Create simple wallet button.
 ![](Signup.PNG)
