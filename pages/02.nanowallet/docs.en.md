@@ -15,10 +15,10 @@ NanoWallet features include:
 *    Compatible with OSX, Windows, Linux, and more.
 *    On-chain multisignature and multi-user accounts.
 *    Quickly create namespaces, subdomains, and mosaics.
-*    Harvesting from supernodes without exposing private keys.
+*    Harvest from supernodes without exposing private keys.
 *    Apostille notarization tool.
 *    Changelly Instant Exchange.
-*    Voting Center module allows weighted or unweighted voting.
+*    Voting Center module allows customizable voting.
 
 
 The newest version is always available here: [Version 1.4.3](https://github.com/NemProject/NanoWallet/releases).
