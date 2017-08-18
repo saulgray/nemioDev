@@ -8,15 +8,16 @@ taxonomy:
 ## 3 Log in and backup
 Open the login page, select your wallet, enter the password and log in.  
 
-![](http://imgur.com/qSNpre5.png)  
+![](qSNpre5.png)
 
 When you log in for the first time, your browser downloads a backup of your wallet. More on backups later in this guide.
  
-![](http://imgur.com/nLMnMVz.png)  
+![](nLMnMVz.png) 
 
 You are now presented with the dashboard. The dashboard shows some basic information about your account and harvesting income. There is also market information to keep track of the exchange rate.
  
 ![](http://imgur.com/WjO2irv.png)
+
 Open "Account" by clicking on it in the top right corner of the NanoWallet. Account Information shows, for example, your NEM address for receiving funds and also your vested balance for harvesting.
  
 ![](http://imgur.com/3c4Lm4T.png)
