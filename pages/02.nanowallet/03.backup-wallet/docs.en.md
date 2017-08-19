@@ -43,17 +43,18 @@ Enter your password on the "Private key" section on the right side of the accoun
 
 ![](Ax9v7XZ.png)
 
-When you entered the password, it shows your private key.
+When you enter the password it shows your private key, which is a 64-digit series of numbers and letters.
 
 You can now either write this code on a paper or take a screenshot to print it out. Store it in a safe place. Do not store it or save it where others may be able to copy it.
 
 ### 3.3 Import a .wlt file to NanoWallet
 To add a saved account to a NanoWallet, open the NanoWallet login screen and press Import Wallet.
 
-![](http://imgur.com/G13SoVP.png)
+![](Login.PNG)
 
 This will open a file explorer window. Navigate to the saved .wlt file you want to add.
 
-![](http://imgur.com/To2BtJK.png)
+![](Import.png)
+
 Press open to add the account saved in the .wlt file. 
 The next time you go to the Sign In screen, press the Select Wallet drop-down menu and select your newly added wallet.
