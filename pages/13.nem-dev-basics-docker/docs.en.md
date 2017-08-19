@@ -31,9 +31,9 @@ when relevant. As an example, here is the output when querying google.com, where
 
 {{< httpie "code/about_google.html" >}} 
 
-{{% notice tip %}}
-You can pass POST data on the command line as key-value pairs. For string value, separate key and value with `=`, for non-string values like integer, use `:=`.
-{{% /notice %}}
+
+> You can pass POST data on the command line as key-value pairs. For string value, separate key and value with `=`, for non-string values like integer, use `:=`.
+
 
 ### Insomnia
 
