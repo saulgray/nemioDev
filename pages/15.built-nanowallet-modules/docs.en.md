@@ -9,6 +9,7 @@ The Nanowallet has been built from the ground up with extensibility in mind. Bel
 [Guide to Building on Nanowallet](https://forum.nem.io/t/how-to-build-a-module-for-nano-wallet/2976)
 
 ##### Building a Changelly Nanowallet Module
-* [plugin:embed](https://forum.nem.io/t/changelly-addon-for-nanowallet-and-how-to-add-modules-to-nanowallet/2921)
+[plugin:embed](https://forum.nem.io/t/changelly-addon-for-nanowallet-and-how-to-add-modules-to-nanowallet/2921)
+
 ##### Building a Nanowallet Addressbook Module
-* [plugin:embed](https://forum.nem.io/t/making-the-nanowallet-address-book-module/3323)
+[plugin:embed](https://forum.nem.io/t/making-the-nanowallet-address-book-module/3323)
