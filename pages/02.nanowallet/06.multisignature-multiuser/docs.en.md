@@ -23,7 +23,7 @@ To illustrate this concept, take a look at Figure 1. Hannah has a NanoWallet acc
 ![](UrE9Epm.png)
 
 ## What is the typical use case?
-As you might already have discovered, there can be a broad range of useful applications for multi-signature contracts and accounts. But let's take a look at some of the common use cases. The first use case is illustrated in Figure 2. Jonathan and Merryann live together, they have their own separate accounts, but they also need a shared account so that if Jonathan is out shopping, he can buy groceries for both him and Merryann. 
+There is a broad range of useful applications for multi-signature contracts and accounts. Let's take a look at some of the common use cases. The first use case is illustrated in Figure 2. Jonathan and Merryann live together, they have their own separate accounts, but they also need a shared account so that if Jonathan is out shopping, he can buy groceries for both him and Merryann. 
  
 ![](yqr8xEv.png)
 
