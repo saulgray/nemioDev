@@ -15,12 +15,13 @@ When you log in for the first time, your browser downloads a backup of your wall
 ![](nLMnMVz.png) 
 
 You are now presented with the dashboard. The dashboard shows some basic information about your account and harvesting income. There is also market information to keep track of the exchange rate.
- 
-![](http://imgur.com/WjO2irv.png)
+
+![](Dashboard.PNG)
 
 Open "Account" by clicking on it in the top right corner of the NanoWallet. Account Information shows, for example, your NEM address for receiving funds and also your vested balance for harvesting.
- 
-![](http://imgur.com/3c4Lm4T.png)
+
+![](Account.PNG)
+
 From here you can also create a backup of your wallet.
 **We recommend backing up to a file AND to paper!**
 
