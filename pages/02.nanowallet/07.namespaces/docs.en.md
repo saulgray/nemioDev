@@ -9,7 +9,7 @@ taxonomy:
 
 This guide will cover the basic setup of namespaces and mosaics in the NanoWallet.
 
-To create a namespace you need to pay the following fees: (note that prices may change.)
+To create a namespace you need to pay the following fees: (note that fees may change.)
 - 5000 XEM for the root namespace
 - 200 XEM for every subnamespace
  
