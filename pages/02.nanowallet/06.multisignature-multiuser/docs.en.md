@@ -18,20 +18,20 @@ Some important things to keep in mind:
 NEM's multi-signature contracts work out of the box, with a push of a button. They are universal, meaning they are built **into** the blockchain, not on top of the blockchain as in third-party reliant software for Bitcoin’s multisig. This unlocks various advantages and interesting possibilities for the user. But let’s first take a look at what a multi-signature contract is. The contract enables several people to administrate the activity of an account, control assets such as XEM from one account, other mosaics, or create additional contracts such as creating a new token. NEM’s multi-signature feature makes a contract that assigns rights of a certain account to other accounts. This contract can be edited to suit almost any needs. The contract converts a chosen regular account to a special multi-signature account. Now this account cannot send funds on its own, but is bound by the contract and administered according to the contract via designated cosigners. 
  
 To illustrate this concept, take a look at Figure 1. Hannah has a NanoWallet account, and John has a NanoWallet account, but due to a multi-signature contract they also have accesses to a multi-signature account and can both use the funds in this account. The contract can be formed in a way such that **either** Hannah or John can separately use funds from the multi-signature account, (this is a multi-user account,) or that they **both** need to approve a transaction, (this is a multisig account.)
- 
-![Figure 1](http://i.imgur.com/UrE9Epm.png)
- 
+
+![](UrE9Epm.png)
+
 ## What is the typical use case?
 As you might already have discovered, there can be a broad range of useful applications for multi-signature contracts and accounts. But let's take a look at some of the common use cases. The first use case is illustrated in Figure 2. Jonathan and Merryann live together, they have their own separate accounts, but they also need a shared account so that if Jonathan is out shopping, he can buy groceries for both him and Merryann. 
  
-![Figure 2](http://i.imgur.com/yqr8xEv.png)
- 
+![](yqr8xEv.png)
+
 The next use case is illustrated in Figure 3. Several families are members of the local philatelist society and use a shared account for buying stamps. To ensure that all agree on which old stamps they should buy and for the right price, they use a multi-signature contract such that all members of the society need to approve a transaction before it can be sent and included in the blockchain as a valid transaction. 
  
-![Figure 3](http://i.imgur.com/xEVuBxf.png)
+ ![](xEVuBxf.png)
  
 Security is another important aspect of multi-signature accounts, let’s look at Figure 4. John wants to make sure his funds are not compromised in any way. Therefore he sets up a multi-signature account with his funds and attaches two accounts (signer accounts) to control his multi-signature account as a form of 2-factor authentication. Both of his signer accounts need to approve the transaction, and his signer accounts are located on different computer platforms with different passwords. This means that even if an evil hacker or virus should compromise one of his accounts, his funds are still kept secure. For even a higher level of security, he could set up 3-factor or even 4-factor authorization and combine them with things like NEM's upcoming integration with [Trezor](https://twitter.com/spudowiar/status/869597547224076289), [NEM 2FA Authenticator](https://medium.com/@aleixmorgadas/nember-experience-56cfa9507f0e) or its air-gapped offline wallet for the highest level of security found on any blockchain. 
  
 So now that you know what the common use cases are, we can move on to "how to create & edit these contracts."
  
-![Figure 4](http://i.imgur.com/KLUqEsh.png)
+ ![](KLUqEsh.png)
