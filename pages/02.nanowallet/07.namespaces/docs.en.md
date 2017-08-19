@@ -35,19 +35,23 @@ Sub-namespace: potato (farmer.potato)
 ### Creation of root- and sub-namespaces
 Login to the NanoWallet, go to Services and choose "Create namespace".
 First, we create the root namespace.
-![create namespace](http://imgur.com/ReVopg1.png)
+
+![](ReVopg1.png)
+
 - Parent Namespace: select ". (New root Namespace)"
 - Namespace: farmer (this is the name of the namespace)
 - Password: Your wallet-password
 
 Once you have entered the values, click "Register". Go to the Dashboard and check, if the registration was successful:
-![create namespace](http://imgur.com/caUyzq1.png)
+
+![](caUyzq1.png)
 
 Now that the root-namespace exists, we can create a sub-namespace.
-![create namespace](http://imgur.com/36c2quM.png)
+![](36c2quM.png)
+
 - Parent Namespace: select "farmer"
 - Namespace: potato (this is the name of the sub-namespace)
 - Password: Your wallet-password
 
 Once you have entered the values, click "Register". Go to the Dashboard and check, if the registration was successful:
-![create sub-namespace](http://imgur.com/Mf8gous.png)
+![](Mf8gous.png)
