@@ -8,7 +8,7 @@ taxonomy:
 ## 3 Log in and backup
 Open the login page, select your wallet, enter the password and log in.  
 
-![](qSNpre5.png)
+![](Login.PNG)
 
 When you log in for the first time, your browser downloads a backup of your wallet. More on backups later in this guide.
  
@@ -27,8 +27,6 @@ From here you can also create a backup of your wallet.
 
 ### 3.1 Backup to a file
 If you didn't store the .wlt file on wallet creation, it can be downloaded later by clicking on "Account" in the top-right corner of the wallet and select "Backup wallet."
-
-Watch a demo guide [here](https://www.youtube.com/watch?v=MHa_KSXTsIA).
  
 Store your wallet file on different drives, for example, USB thumb drives, USB hard drives, and network storage. We recommend encrypting the file with a tool like TrueCrypt or 7-zip before storing it on a different drive.
  
