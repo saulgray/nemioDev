@@ -45,7 +45,7 @@ Enter your password on the "Private key" section on the right side of the accoun
 
 When you entered the password, it shows your private key.
 
-You can now either write this code on a paper or take a screenshot to print it out. Store it in a safe place. Do not store it or save it where others may gain access.
+You can now either write this code on a paper or take a screenshot to print it out. Store it in a safe place. Do not store it or save it where others may be able to copy it.
 
 ### 3.3 Import a .wlt file to NanoWallet
 To add a saved account to a NanoWallet, open the NanoWallet login screen and press Import Wallet.
