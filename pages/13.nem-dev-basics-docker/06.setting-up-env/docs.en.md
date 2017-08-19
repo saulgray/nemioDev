@@ -64,9 +64,9 @@ root@adc93b7773f6:/# tail /var/log/nis-stderr.log  -f
 ```
 We see here that our NIS instance is communicating with other instances (`synchronizing with Node [Hi, I am MedAlice2...`), downloading blocks (`received 400 blocks`), validating downloaded blocks (`validated 400 blocks`), updating the blockchain with validated blocks (`chain update of 400 blocks`), etc
 
-{{% notice note  %}}
-Should you wish to start the containers without starting NIS, you can do that by passing `--no-nis` as first argument to the ndev command.
-{{% /notice  %}}
+
+> Should you wish to start the containers without starting NIS, you can do that by passing `--no-nis` as first argument to the ndev command.
+
 
 
 ## First request
