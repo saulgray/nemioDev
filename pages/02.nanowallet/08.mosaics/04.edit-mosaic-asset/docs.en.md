@@ -9,7 +9,8 @@ taxonomy:
 Your business runs great, in fact, you are thinking about adding another 50 potato fields to your farm. 
 How to add those new fields to your Mosaic?
 Go to Services - "edit mosaic":
-![mosaic transfer](http://imgur.com/Gxg1isV.png)
+![](Gxg1isV.png)
+
 - Select mosaic: farmer.potato:field
 - Change type: create 
 - Change amount: 50
