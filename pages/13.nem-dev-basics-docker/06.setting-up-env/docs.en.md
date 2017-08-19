@@ -9,8 +9,6 @@ In this chapter we'll start a NIS instance on the testnet, and we'll send it som
 
 ## Using the docker container
 
-We have already seen [how to run the docker containers]({{< relref "02-about.md#docker-config" >}}) accompanying this guide. Let's now use them!
-
 As explained in the description of the docker image, we can start it with this command
 ``` bash
 nem:~$ ndev
