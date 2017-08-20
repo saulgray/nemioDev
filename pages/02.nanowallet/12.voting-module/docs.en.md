@@ -9,7 +9,14 @@ Thanks to the NEM Voting Module anyone can create and participate in polls using
 
 The NEM voting platform is a NanoWallet module that allows anyone to create and vote on polls stored on the NEM blockchain. The vote counting is done by the client with open source code so it is completely transparent. All the information is publicly available to everybody.
 
-NEM is ideal for a voting system since every account on the network already has an importance score. This provides an interesting way to weight votes.
+To create a poll, log into your NanoWallet and click on the Services tab at the top of the page.
+
+Scroll down until you see the Voting Module and select Create Poll.
+![](Poll.PNG)
+
+This opens the Create a Poll page. Here you can name your poll, describe the rules, set an end date, and create the various options people will be voting on.
+
+![](Poll2.PNG)
 
 Technical Details
 
