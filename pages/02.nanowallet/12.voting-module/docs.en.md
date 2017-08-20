@@ -46,6 +46,7 @@ Private indexes can be created, where only the creator of the index account can 
 While the voting is still ongoing a temporary result is calculated pulling data from the current block in the blockchain. Once the poll ends the result is calculated from historical blockchain data.
 
 **Additional Comments**
+
 NEM plans to implement another type of vote counting in the future which will use mosaics to weight the votes. This will introduce interesting ways to create votes. For example if you have a company and you want to have an internal vote you can create a mosaic and distribute it. You could even send more mosaics to more important figures on the company. You could also have POS (proof of stake) counting by using XEM as the mosaic.
 
 Special thanks to the whole Atraura team for helping with the development of the project.
