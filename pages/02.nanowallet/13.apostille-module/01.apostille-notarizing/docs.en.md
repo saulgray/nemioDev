@@ -5,7 +5,8 @@ taxonomy:
         - docs
 ---
 
-How to Notarize Files
+**How to Notarize Files**
+
 Open your NanoWallet and log in and click the **Services** tab.
 
 ![](Apostille1.jpg)
