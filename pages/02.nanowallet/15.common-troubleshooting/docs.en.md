@@ -20,4 +20,23 @@ Click on the "Select a node" drop-down and pick any node listed. Close the windo
 
 ## Harvesting no longer active
 
+It's a good idea to check on your harvesting status regularly. If the supernode you are connected to shuts down or restarts you probably need to reconnect. 
+
+Click on the Services tab and open the Delegated Harvesting link.
+![](Delegated1.PNG)
+
+Check your status on the Harvesting panel. If it's Inactive you need to reconnect.
+**Also note, you need 10,000 vested XEM in your account to harvest. If you are unsure, read the Delegated Harvesting section.**
+![](Delegated3.PNG)
+
+Go to the Start/stop delegated harvesting panel on the Delegated Harvesting screen. Enter your password and open the list of supernodes.
+
+It doesn't matter whether you choose one you previously used or a new supernode. If it says "No open slots" you may have to keep trying new supernodes until you find one with an opening. 
+![](Delegated4.PNG)
+
+Press Start Delegated Harvesting and wait a few secords. 
+
+You should see the Harvesting Panel at the top of the screen with green Active indicators.
+![](Delegated2.PNG)
+
 ## etc
