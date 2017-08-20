@@ -5,12 +5,15 @@ taxonomy:
         - docs
 ---
 
-How to use the NEM Voting Module
-You will find two options on the services tab on NanoWallet: See Polls and Create Poll. Let’s walk through their features.
-Creating a Poll
+**How to Use the NEM Voting Module**
 
-Example of a poll creation form on the testnet
-![](https://cdn-images-1.medium.com/max/1000/1*5ehVC2Lx2tsVEglO-4kGfg.png)
+You will find two options on the services tab on NanoWallet: See Polls and Create Poll. Let’s walk through their features.
+
+**Creating a Poll**
+
+Example of a poll creation form on the testnet:
+![](1-5ehVC2Lx2tsVEglO-4kGfg.png)
+
 On the Create poll Option you will find a form with all the information needed for a poll to be created. There is a small description for each field.
 The fields that define a Poll are:
 Title: Short Title people will see on the poll Index and when opening the poll.
