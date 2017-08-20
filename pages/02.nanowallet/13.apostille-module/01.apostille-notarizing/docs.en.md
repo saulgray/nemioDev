@@ -7,10 +7,12 @@ taxonomy:
 
 How to Notarize Files
 Open your NanoWallet and log in and click the **Services** tab.
-![](https://lh3.googleusercontent.com/5fIBDlWW-bOKTx_BdsA0WT3_S4I00kEEXk1RtmLVvj08ZR0FZUaExpkuo6pDtD3uD9HymQgTbSr9jPfYWjLC-nUrOx1Vg7vzhqUv7wpymji0JsP_yzYdBkV1j6NGpTsWTZqQpTsk_H07vWQlgDa4VyFKXL80lMFmMD2S3CGaoIxt_xl8cEfPD6ffJ24-_sC8DBTHexXXwwPXF6zhp-E7sJCCwyZS2gEcAQMmwl5xSKJosBWuEA9PgswOPGesIDv7u5pcVQXp63-8L6uXtgHZvXodPAv_vFdLSQwRMecT-fyORKTpdEepocJL1TWVdCY2EZ7Donu4HwvlqeOARdR6_YFm79hM2vxzrflkHVMaihNktQip-tuJqqA7vjVdV6cwh5aEj8550PLmVA-OzEeQ1C6Ii2Kn6WjDN3VOxxn6Ghn35_h2uLAho130wmU5wb5PXFxATEdqSx2UHAzDbbm42E_8Bcl78dUvO0wIDZTPVqm2ShN8tkWFRfeQ-KmvuewWkzYXJQV8iaJkpJgH_D58tWx3pJ7mm9h-gdwgXHTOJA2XEwOsh8eju5XQHuZWFrBXlor7FjF5I4hlej133S81seiXoK0qai_tqmrlz0a_yFzAGX5VoNVNr_keQUYZbB4V0P37ec59Ro7VfmIwytmilGws5DaFMFZDMl_7Qxh0PQ=w1236-h651-no)
-You will need to enter the password and tags before you can select the files to notarize. Select your encryption (SHA-256 is fine for most cases) and whether you will notarize it privately or in a public sink. We suggest public if you just want a time-stamp of the document and require no extra utility. If you want the document to be updateable and transferrable, select private.
 
 ![](Apostille1.jpg)
+
+You will need to enter the password and tags before you can select the files to notarize. Select your encryption (SHA-256 is fine for most cases) and whether you will notarize it privately or in a public sink. We suggest public if you just want a time-stamp of the document and require no extra utility. If you want the document to be updateable and transferrable, select private.
+
+
 
 Select a file you want to notarize.
 ![](https://lh3.googleusercontent.com/ZSEiwzoAD9PaaYLsbBVA26z698yKqUGEYdK0A9NfmyCG4kVHKF8jIEKOPqEotENSgMxhDyjI6lEzTfxbiud2L3sXF-3IRfPL3Yq3Db0eUuPM1wsPV_xt_kdh_x4AplKrD2jScESjAQhHDvnkuZxslDfK9GqOsph6GX4caHgkbRKzKiy0QlD9AGhit3eUE9iOEDvFXOb9WnrEntB5YabdNgO63OLosjf8vtw4UgXWJFzBmLwGxBQCy2YpY27a61Fk_6M63VFa1h9Oi5cutEOJXw7cfzzInY4DyQsRuyxHen05kLmPmnP300sfr2AGHbq-mgWOE91rGxBRpFXjKqaH6DCRZijTtnx-iIeperrpe4DO1vQPqjH4bycJp9HSDRCH_8Wory8Fl8gpqX3GHqCHy9xaxhO2l3ZAiuvigVkfnCQIKsUkZ1Oq10hzT7QkUdj1pdAa7QoN1lkzadoqgKRODD_duBCVwi8SLrqPhT9Zy0uuIkV-jI0eToLKST1RKS5ao5-0obGBaqSQhMdsFjjL5tkAjWeg4TzLcYfyZN63f6ER7c39JJUgTQT4yqliiZSq4SwrZuJzF4V057jLZq_PNQ8Od9wuqgLAhtxy0tUiCvZaXlZX9dJbdxpuGcFUh0oRsouZ24WptfseXD2fwLsaSaIdZzrBfCgRmumE849u8g=w1236-h651-no)
