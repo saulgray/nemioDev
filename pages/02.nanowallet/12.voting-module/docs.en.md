@@ -5,8 +5,6 @@ taxonomy:
         - docs
 ---
 
-Thanks to the NEM Voting Module anyone can create and participate in polls using Blockchain technology.
-
 The NEM voting platform is a NanoWallet module that allows anyone to create and vote on polls stored on the NEM blockchain. The vote counting is done by the client with open source code so it is completely transparent. All the information is publicly available to everybody.
 
 To create a poll, log into your NanoWallet and click on the Services tab at the top of the page.
