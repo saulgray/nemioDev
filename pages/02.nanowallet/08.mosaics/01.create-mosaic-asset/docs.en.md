@@ -5,6 +5,8 @@ taxonomy:
         - docs
 ---
 
+![](Vx7prpZ.png)
+
 **Mosaic definition**
 - Parent Namespace: select "farmer.potato"
 - Mosaic name: field (this is the name of the mosaic)
