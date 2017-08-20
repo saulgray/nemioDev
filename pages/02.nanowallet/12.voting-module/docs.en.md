@@ -12,7 +12,7 @@ To create a poll, log into your NanoWallet and click on the Services tab at the 
 Scroll down until you see the Voting Module and select Create Poll.
 ![](Poll.PNG)
 
-This opens the Create a Poll page. Here you can name your poll, describe the rules, set an end date, and create the various options people will be voting on.
+This opens the Create a Poll page. Here you can name your poll, describe the rules, set an end date, and create the various options people will be voting on. Once you have defined all your parameters, enter your password and press the Create button to start the poll.
 
 ![](Poll2.PNG)
 
