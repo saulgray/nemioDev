@@ -7,7 +7,7 @@ taxonomy:
 
 NEM's Apostille service is used for notarizing and checking the authenticity of files notarized on the NEM blockchain. Its uses are various, but one big one is to register important documents that need a certificate of origin and content. NEM provides these in a .zip file after a successful notarization, containing a .pdf of the certificate (apostille) along with the original file with a hash in its filename and updated .nty file which is your notarization history.
 
-Apostille allows you to permanently record any document in the blockchain with a timestamp and proof of ownership. This pr allows you to compare any future versions of your document and instantly detect whether any changes have been made.
+Apostille allows you to permanently record any document in the blockchain with a timestamp and proof of ownership. This proves you owned that intellectual property on a certain date. It also allows you to compare any future versions of your document and instantly detect whether any changes have been made.
 
 It's easiest to learn from examples so I would like to start with one of many possible uses of the NEM Apostille service.
 
