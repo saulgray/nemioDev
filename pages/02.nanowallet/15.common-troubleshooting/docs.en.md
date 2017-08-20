@@ -22,7 +22,7 @@ Click on the "Select a node" drop-down and pick any node listed. Close the windo
 
 It's a good idea to check on your harvesting status regularly. If the supernode you are connected to shuts down or restarts you probably need to reconnect. 
 
-Click on the Services tab and open the Delegated Harvesting link.
+Click on the Services tab and open the Manage Delegated Account link.
 ![](Delegated1.PNG)
 
 Check your status on the Harvesting panel. If it's Inactive you need to reconnect.
