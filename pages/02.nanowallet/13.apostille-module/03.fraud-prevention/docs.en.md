@@ -17,8 +17,9 @@ Here are the original contents of the notarized file:
 Lets be sneaky and change the contents without permission and save it, thinking we've gotten away with fraud:
 ![](Fraud3.jpg)
 
-Apostille says "not today, good sir." Fraud was averted because we were smart and notarized the Top Secret Document before sharing the contents with malicious users. 
+Verification Failed! Apostille says "not today, good sir." Fraud was averted because we were smart and notarized the Top Secret Document before sharing the contents with malicious users. 
 ![](Fraud4.jpg)
 
+If the document was authentic and exactly matched our notarized version we would get the result "File successfully audited!"
 
 ![](Fraud5.jpg)
