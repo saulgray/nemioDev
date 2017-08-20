@@ -1,5 +1,6 @@
 ---
 title: Microwallet
+published: false
 taxonomy:
     category:
         - docs
