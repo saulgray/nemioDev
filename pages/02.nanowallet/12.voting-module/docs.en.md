@@ -7,13 +7,15 @@ taxonomy:
 
 Thanks to the NEM Voting Module anyone can create and participate in polls using Blockchain technology.
 
-The NEM voting platform is a new NanoWallet module that allows anybody to create and vote on polls stored on the NEM blockchain. The vote counting is made by the client with open source code, so that it is completely transparent. All the information is publicly available to everybody.
-NEM is ideal for a voting system due to the importance score inherent to every account on the network, which provides a very interesting way to weight votes.
+The NEM voting platform is a NanoWallet module that allows anyone to create and vote on polls stored on the NEM blockchain. The vote counting is done by the client with open source code so it is completely transparent. All the information is publicly available to everybody.
+
+NEM is ideal for a voting system since every account on the network already has an importance score. This provides an interesting way to weight votes.
 
 Technical Details
 
 Account Structure of The module. Colored arrows are messages.
-![](https://cdn-images-1.medium.com/max/1600/1*kQh38bgPVUgQ1XUeZwpcMg.png)
+![](1-kQh38bgPVUgQ1XUeZwpcMg.png)
+
 There are 4 main concepts on the data structure of the module:
 Poll Index Account (PI)
 Poll Account (PA)
