@@ -15,15 +15,14 @@ To run a local node, download and extract the standalone client from [nem.io](ht
 In the extracted folder (nis-ncc) you will find a file called "runNis" (Windows: runNis.bat, OSX/Linux: nix.runNis.sh).
 ![](bWxx446.png)
 
-Windows: Execute the file by double-clicking it.
-
-OSX/Linux: Open a terminal, navigate to the folder "nis-ncc" and execute "nix.runNis.sh"
+* Windows: Execute the file by double-clicking it.
+* OSX/Linux: Open a terminal, navigate to the folder "nis-ncc" and execute "nix.runNis.sh"
 ![](Kyxq1JQ.png)
 
 Once NIS runs, let it run for 1-2 minutes and stop it. We do this to let NIS create the needed folder structure.
 Navigate to the created folder structure.
-Windows: C:\users\username\nem\nis\data
-OSX/Linux: username/nem/nis/data
+* Windows: C:\users\username\nem\nis\data
+* OSX/Linux: username/nem/nis/data
 
 ![](AxmeKzJ.png)
 
