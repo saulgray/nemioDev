@@ -36,7 +36,5 @@ It doesn't matter whether you choose one you previously used or a new supernode.
 
 Press Start Delegated Harvesting and wait a few secords. 
 
-You should see the Harvesting Panel at the top of the screen with green Active indicators.
+You should now see the Harvesting Panel at the top of the screen with green Active indicators.
 ![](Delegated2.PNG)
-
-## etc
