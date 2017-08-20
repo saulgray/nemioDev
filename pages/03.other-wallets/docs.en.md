@@ -15,7 +15,7 @@ taxonomy:
 | Sends Mosaics| YES             | NO             | YES      |   NO     |   NO   |
 | Mobile       | NO             | NO             | YES      |   YES     |   YES   |
 | Desktop      | YES            | YES             | NO      |   NO     |   NO   |
-| Multisig     | YES            | YES             | YES      |   NO     |   NO   |
+| Multisig     | YES            | YES             | YES      |   YES     |   YES   |
 | Harvesting   | YES            | YES             | NO      |   NO     |   NO   |
 | Alias        | YES            | NO             | NO      |   NO     |   NO   | 
 | Voting        | YES            | NO             | NO      |   NO     |   NO   | 
