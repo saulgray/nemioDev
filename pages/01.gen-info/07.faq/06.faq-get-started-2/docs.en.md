@@ -30,11 +30,7 @@ These issues will be answered by the faucet owner in [this thread](https://forum
 * [Important thing to know when using exchanges](https://forum.nem.io/t/attach-the-message-if-sending-xem-to-an-exchange-poloniex-changelly-etc/4162) - How NOT to end up troubleshooting your transaction
 * [Sent XEM to an address not being used](https://forum.nem.io/t/sent-nem-to-an-address-not-being-used/5832) - hope someone’s using it
 * [I did a more complicated mistake concerning exchange/sent nem to no address](https://forum.nem.io/t/where-did-my-nem-go/4524/35) - “basically you sent it to the address of whoever was in the thread where you see the negative amount”. also explains how to find transaction details on changelly, a long thread.
-* Harvesting on mobile - Spoiler: no
-* How to restore your nano wallet10 - A nice tutorial
-* How to export nem mobile wallet to nanowallet5 - more exact question, also see tutorial above XD
-* Questions and answers about fees5 - Yes they are going dowwwnnnnnnn :wink:
-* I have a problem/question about Faucet13, - Click ,wait, click again
-* [Bittrex Issues] How long does it take to show up in wallet?3 - Depends :wink:
-* Don’t see your balance or nodes down?8 -More question on why you don’t see your XEM
-* NCC is stopped, cannot be started. NIS is running well. How can I fix this?9 - “Sometimes people update and they have a problem with NCC starting. If that is so then do the following…”
+* [Harvesting on mobile](https://forum.nem.io/t/explanation-of-harvesting-and-help-with-delegated-harvesting/3251/2) - Spoiler: no
+* [How to restore your nano wallet](https://forum.nem.io/t/how-to-restore-your-nem-nanowallet/5515) - A nice tutorial
+* [How to export nem mobile wallet to nanowallet](https://forum.nem.io/t/how-to-export-nem-mobile-wallet-to-nem-nanowallet/6108) - more exact question, also see tutorial above
+* [NCC is stopped, cannot be started. NIS is running well. How can I fix this?](https://forum.nem.io/t/ncc-is-stopped-cannot-be-started-nis-is-running-well-how-can-i-fix-this/3114/2) - “Sometimes people update and they have a problem with NCC starting. If that is so then do the following…”
