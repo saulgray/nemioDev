@@ -9,4 +9,3 @@ Finally, the most important option is "Export Account", when you click on it, it
 
 
 Good to know: The private key is all you need to access your XEM balance from any other device. There is no XEM kept inside this mobile wallet app, all is **on the NEM blockchain!**
-![Make A Backup!!!](http://imgur.com/slaOt69.png)
