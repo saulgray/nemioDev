@@ -16,7 +16,7 @@ This opens the Create a Poll page. Here you can name your poll, describe the rul
 
 ![](Poll2.PNG)
 
-Technical Details
+**Technical Details**
 
 Account Structure of The module. Colored arrows are messages.
 ![](1-kQh38bgPVUgQ1XUeZwpcMg.png)
