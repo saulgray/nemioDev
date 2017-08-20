@@ -12,7 +12,7 @@ The mobile Android version of the Nem wallet is downloadable for the mainnet and
 ## Install and Setup
 Just a few seconds after clicking download from the Play store, the app should be installed. Open up the app and you will see a screen just like this:  
 
-![First Screen App](/content/images/2016/11/photo_2016-11-05_10-17-26--Copy-.jpg)
+![First Screen App](https://blog.nem.io/content/images/2016/11/photo_2016-11-05_10-17-26--Copy-.jpg)
 
 Set a secure password for your Nem wallet, it is important to keep your account safe. Every time you open the app, it asks for your password, therefore you shouldn't forget it and make a backup of your password. After setting up a password, it will go to the home page of the app. That looks like this:  
 
