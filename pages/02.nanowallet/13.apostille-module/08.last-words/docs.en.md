@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-Coming full circle, I hope you can understand how NEM’s Apostille can be utilized to provide irrefutable proof of any asset’s existence. Combine this with unique Namespaces, multi-signature authorizations, updateable and transferable options, and you can begin to see just how useful and potentially revolutionary Apostille can be.
+Coming full circle, I hope you can understand how NEM’s Apostille can be utilized to provide irrefutable proof of any asset’s existence. Combine this with unique namespaces, multi-signature authorizations, updateable and transferable options, and you can begin to see just how useful and potentially revolutionary Apostille can be.
 Keep in mind that Apostille is still in development and will continue to deliver more customizations and features over time. The system is highly adaptable and additional functions can be added through modules from third-party developers as well. To conclude this tutorial, here is a little list of possible use cases for the Apostille service. There is already at least one major company who’s currently utilizing this service, [LuxTag](http://luxtag.io/).
 
 * Archiving sensitive data or documents which require immutability and should not be tampered with.
