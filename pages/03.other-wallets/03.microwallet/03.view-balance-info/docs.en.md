@@ -1,5 +1,6 @@
 ---
 title: 'View Balance and Info'
+published: false
 taxonomy:
     category:
         - docs
