@@ -15,4 +15,4 @@ Harvesters collect transaction fees from the blocks they harvest, and NEM does n
 
 One more benefit of NEM's delegated harvesting feature is that light clients use a public key, which means a harvester's private key is never exposed. Even if the Supernode became compromised it would pose no danger to the clients harvesting with it.
 
-Finally, delegated harvesting is a great example of the spirit in which NEM was founded. Instead of rewarding those with a huge bankroll to buy hardware or hoard coins, delegated harvesting allows more people to participate in the reward system. This is part of NEM's culture of fairness and inclusiveness, where anyone can have a positive impact.
+Finally, delegated harvesting is a great example of the spirit in which NEM was founded. Instead of rewarding those with a huge bankroll to buy hardware farms or hoard coins, delegated harvesting allows more people to participate in the reward system. This is part of NEM's culture of fairness and inclusiveness, where anyone can have a positive impact.
