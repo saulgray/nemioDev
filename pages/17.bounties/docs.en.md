@@ -1,5 +1,6 @@
 ---
 title: Bounties
+published: false
 taxonomy:
     category:
         - docs
