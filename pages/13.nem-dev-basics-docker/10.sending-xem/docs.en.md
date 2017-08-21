@@ -195,7 +195,7 @@ nem.model.transactions.send(common, transactionEntity, endpoint).then(function(r
 If you use this guide's docker containers, you can inspect the POST request sent to the NIS server by accessing the mitmproxy interface
 at [http://localhost:8081](http://localhost:8081). Here is a screenshot:
 
-{{< figure src="/images/transaction_unisig_post.png" title="Unisig transaction sent to NIS" >}}
+![](transaction_unisig_post.png)
 
 We see that the payload is a JSON object with fields data and signature. The `data` field is the serialised trnsaction, and the NIS API documentation
 explains [how to generated the signature](http://bob.nem.ninja/docs/#creating-a-signed-transaction).
