@@ -75,7 +75,31 @@ from the host or from the tools container.
 We'll use [httpie](https://httpie.org/), which is already installed in the tools.
 Our first request will be to [get the status](http://bob.nem.ninja/docs/#status-request)  of the NIS instance with a `GET` request to `/status`. Here's the result:
 
-{{< httpie "code/setup_status.html" >}}
+```HTTP
+$ http :7890/status
+
+GET /status HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: localhost:7890
+User-Agent: HTTPie/0.9.2
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "code": 5, 
+    "message": "status", 
+    "type": 4
+}
+```
 
 As usual, this excerpt shows the command executed a well as the request and response headers and body (this will not be repeated in the rest of the document).
 The request is sent to `:7890/status`, which is an httpie shortcut for path `/status` on port `7890` of `localhost`.
