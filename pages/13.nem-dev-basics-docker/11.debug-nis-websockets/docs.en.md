@@ -43,7 +43,7 @@ after you start containers with the script `ndev` [as explained ealier](/03-sett
 
 Opening Mitmweb in your browser (use Firefox if you get a blank page in Google Chrome), and selecting the last request in the list,
 you should see a page similar to this:
-{{< figure src="/images/debugging_mitmweb_overview.png" title="Mitmweb Overview" >}}
+![](https://rb2nem.github.io/nem-dev-guide/images/debugging_mitmweb_overview.png)
 
 The left pane lists the requests it has been intercepted (2 in this case), and
 the right pane gives you a detailed view of the request and response headers.
