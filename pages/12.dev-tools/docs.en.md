@@ -16,5 +16,6 @@ taxonomy:
 ##### [NEM Library (Typescript)](https://nemlibrary.com/)
 * NEM Library (Angular2)
 	[plugin:embed](https://github.com/guillemsole/nem-library-angular2-seed)
+    
 * NEM Library (Ionic2) 
 	[plugin:embed](https://github.com/guillemsole/nem-library-ionic2-seed)
