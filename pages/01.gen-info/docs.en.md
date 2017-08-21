@@ -1,6 +1,6 @@
 ---
 title: 'General Information'
-published: false
+published: true
 taxonomy:
     category:
         - docs
