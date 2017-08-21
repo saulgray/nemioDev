@@ -18,11 +18,11 @@ SHA3 hashing algorithm.
 Ed25519 was [introduced](https://ed25519.cr.yp.to/ed25519-20110926.pdf) when sha3 was not yet
 standardised, and it uses the SHA512 hashing algorithm (the paper names it Ed25519-SHA-512).
 However the paper clearly states that `we will not hesitate to recommend Ed25519-SHA-3 after SHA-3 is standardized`.
-{{% notice note %}}
-Most Ed25519 implementations use the SHA-512 method described in the original paper. To generate NEM keypairs, 
+
+> Most Ed25519 implementations use the SHA-512 method described in the original paper. To generate NEM keypairs, 
 you might need to patch standard implementations, as was [done for the python implementation](https://github.com/NemProject/nem-py/blob/master/ed25519.py)
  by the NEM authors..
-{{% /notice %}}
+
 
 The private key uniquely identifies a NEM account. The public key is derived from the private key, and the address of the account is
 derived from the public key.
