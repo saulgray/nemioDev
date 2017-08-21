@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-* [Dev Updates](https://forum.nem.io/t/stories-from-the-dev-front-diary/2641?u=jabo38)
+* [plugin:embed](https://forum.nem.io/t/stories-from-the-dev-front-diary/2641)
 * [Catapult Whitepaper](https://nem.io/catapultwhitepaper.pdf)
 * [Technical Reference](https://nem.io/NEM_techRef.pdf)
 * [Radicalizing the Equity Markets](https://nem.io/RadicalizingEquityMarket.pdf)
