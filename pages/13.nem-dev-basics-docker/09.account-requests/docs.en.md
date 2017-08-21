@@ -83,8 +83,46 @@ As we see, this account has its public key on the blockchain. We can retrieve th
 ### From public key (/account/get/from-public-key)
 Here is the data retrieved for the same account using the public key:
 
+```HTTP
+$ http 23.228.67.85:7890/account/get/from-public-key?publicKey=4fe5efd97360bc8a32ec105d419222eeb714e6d06fd8b895a5eedda2b0edf931
 
-{{< httpie "code/account_get_from_pk.html" >}}
+GET /account/get/from-public-key?publicKey=4fe5efd97360bc8a32ec105d419222eeb714e6d06fd8b895a5eedda2b0edf931 HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: 23.228.67.85:7890
+User-Agent: HTTPie/0.9.2
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "account": {
+        "address": "TA6XFSJYZYAIYP7FL7X2RL63647FRMB65YC6CO3G", 
+        "balance": 99784000000, 
+        "harvestedBlocks": 0, 
+        "importance": 0.00021510404390950709, 
+        "label": null, 
+        "multisigInfo": {}, 
+        "publicKey": "4fe5efd97360bc8a32ec105d419222eeb714e6d06fd8b895a5eedda2b0edf931", 
+        "vestedBalance": 18958960000
+    }, 
+    "meta": {
+        "cosignatories": [], 
+        "cosignatoryOf": [], 
+        "remoteStatus": "INACTIVE", 
+        "status": "LOCKED"
+    }
+}
+```
 
 ## Multisig accounts
 
