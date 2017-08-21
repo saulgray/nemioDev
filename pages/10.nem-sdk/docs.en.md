@@ -32,7 +32,8 @@ This SDK is just a "draft" for now, lot of things will change as development and
 
 #### Packages:
 
-##### NEM-sdk NPM Package
-* [plugin:embed](https://www.npmjs.com/package/nem-sdk)
 ##### NEM-sdk Github Repository
-* [plugin:embed](https://github.com/QuantumMechanics/NEM-sdk)
+[plugin:embed](https://github.com/QuantumMechanics/NEM-sdk)
+
+##### NEM-sdk NPM Package
+[plugin:embed](https://www.npmjs.com/package/nem-sdk)
