@@ -1,16 +1,16 @@
 ---
 title: 'Project Bounties'
-published: true
+published: false
 taxonomy:
     category:
         - docs
 jscomments:
     active: true
-    enabled: true
     provider: discourse
     title: 'NEM’s Prototype Project Bounty Program'
     url: 'https://forum.nem.io/t/nem-s-prototype-project-bounty-program/2822'
     id: 'https://forum.nem.io/t/nem-s-prototype-project-bounty-program/2822'
+    enabled: true
 ---
 
 #### The NEM team will be giving bounties for the following projects. 
