@@ -133,8 +133,68 @@ only from the cosignatories.
 
 Here is the data returned for a 1-of-2 multisig account:
 
+```HTTP
+$ http 23.228.67.85:7890/account/get?address=TAPWFJHCGV3GL3CZEERB3IGXPMBWNGGEZKAVPNFB
 
-{{< httpie "code/account_get_multisig_1_of_2.html" >}}
+GET /account/get?address=TAPWFJHCGV3GL3CZEERB3IGXPMBWNGGEZKAVPNFB HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: 23.228.67.85:7890
+User-Agent: HTTPie/0.9.2
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "account": {
+        "address": "TAPWFJHCGV3GL3CZEERB3IGXPMBWNGGEZKAVPNFB", 
+        "balance": 956000000, 
+        "harvestedBlocks": 0, 
+        "importance": 0.0, 
+        "label": null, 
+        "multisigInfo": {
+            "cosignatoriesCount": 2, 
+            "minCosignatories": 1
+        }, 
+        "publicKey": "e3775e0cbab73d014b0309f81890455bf3c8df1325f2de1aa6a800951220d611", 
+        "vestedBalance": 0
+    }, 
+    "meta": {
+        "cosignatories": [
+            {
+                "address": "TBK2DJE2RUMO7VTM3CWOJV24FYQB3YZDOYSFNTRR", 
+                "balance": 899000000, 
+                "harvestedBlocks": 0, 
+                "importance": 0.0, 
+                "label": null, 
+                "multisigInfo": {}, 
+                "publicKey": "3eee54c75945d22500f1c6844b175b9efc9db171e2e941704fa396dc6ecd2ffd", 
+                "vestedBalance": 0
+            }, 
+            {
+                "address": "TBQC5LH73T7V2L6JDBMAXAZDGM7CNW2JEC5AA5RH", 
+                "balance": 899000000, 
+                "harvestedBlocks": 0, 
+                "importance": 0.0, 
+                "label": null, 
+                "multisigInfo": {}, 
+                "publicKey": "61a2896696fef452d001299f279567aacc79706c2b2c899f9dec70e0b92eb6b6", 
+                "vestedBalance": 0
+            }
+        ], 
+        "cosignatoryOf": [], 
+        "remoteStatus": "INACTIVE", 
+        "status": "LOCKED"
+    }
+}
+```
 
 
 And here is the data returned for the 2 cosignatories, of which 1 signature is needed to validate a transaction. This means that
@@ -145,9 +205,115 @@ We see that `account.multisigInfo` holds the number of cosignatories, and how ma
 The `meta.cosignatories` contains the info about the cosignatory accounts, the same info as returned by a request to `/account/get`.
 
 Here is the first cosignatory:
-{{< httpie "code/account_get_multisig_signer.html" >}}
+```HTTP
+$ http 23.228.67.85:7890/account/get?address=TBQC5LH73T7V2L6JDBMAXAZDGM7CNW2JEC5AA5RH
+
+GET /account/get?address=TBQC5LH73T7V2L6JDBMAXAZDGM7CNW2JEC5AA5RH HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: 23.228.67.85:7890
+User-Agent: HTTPie/0.9.2
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "account": {
+        "address": "TBQC5LH73T7V2L6JDBMAXAZDGM7CNW2JEC5AA5RH", 
+        "balance": 899000000, 
+        "harvestedBlocks": 0, 
+        "importance": 0.0, 
+        "label": null, 
+        "multisigInfo": {}, 
+        "publicKey": "61a2896696fef452d001299f279567aacc79706c2b2c899f9dec70e0b92eb6b6", 
+        "vestedBalance": 0
+    }, 
+    "meta": {
+        "cosignatories": [], 
+        "cosignatoryOf": [
+            {
+                "address": "TAPWFJHCGV3GL3CZEERB3IGXPMBWNGGEZKAVPNFB", 
+                "balance": 956000000, 
+                "harvestedBlocks": 0, 
+                "importance": 0.0, 
+                "label": null, 
+                "multisigInfo": {
+                    "cosignatoriesCount": 2, 
+                    "minCosignatories": 1
+                }, 
+                "publicKey": "e3775e0cbab73d014b0309f81890455bf3c8df1325f2de1aa6a800951220d611", 
+                "vestedBalance": 0
+            }
+        ], 
+        "remoteStatus": "INACTIVE", 
+        "status": "LOCKED"
+    }
+}
+```
 
 And here is the second:
-{{< httpie "code/account_get_multisig_signer2.html" >}}
+```HTTP
+$ http 23.228.67.85:7890/account/get?address=TBK2DJE2RUMO7VTM3CWOJV24FYQB3YZDOYSFNTRR
+
+GET /account/get?address=TBK2DJE2RUMO7VTM3CWOJV24FYQB3YZDOYSFNTRR HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: 23.228.67.85:7890
+User-Agent: HTTPie/0.9.2
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "account": {
+        "address": "TBK2DJE2RUMO7VTM3CWOJV24FYQB3YZDOYSFNTRR", 
+        "balance": 899000000, 
+        "harvestedBlocks": 0, 
+        "importance": 0.0, 
+        "label": null, 
+        "multisigInfo": {}, 
+        "publicKey": "3eee54c75945d22500f1c6844b175b9efc9db171e2e941704fa396dc6ecd2ffd", 
+        "vestedBalance": 0
+    }, 
+    "meta": {
+        "cosignatories": [], 
+        "cosignatoryOf": [
+            {
+                "address": "TAPWFJHCGV3GL3CZEERB3IGXPMBWNGGEZKAVPNFB", 
+                "balance": 956000000, 
+                "harvestedBlocks": 0, 
+                "importance": 0.0, 
+                "label": null, 
+                "multisigInfo": {
+                    "cosignatoriesCount": 2, 
+                    "minCosignatories": 1
+                }, 
+                "publicKey": "e3775e0cbab73d014b0309f81890455bf3c8df1325f2de1aa6a800951220d611", 
+                "vestedBalance": 0
+            }
+        ], 
+        "remoteStatus": "INACTIVE", 
+        "status": "LOCKED"
+    }
+}
+```
 
 We see that `meta.cosignatoryOf` gives info about the multisig account it is a cosignatory of.
