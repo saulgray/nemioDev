@@ -5,13 +5,14 @@ taxonomy:
         - docs
 ---
 
-[Facebook](https://www.facebook.com/ourNEM)
-[Twitter](https://twitter.com/nemofficial)
-[Reddit](https://www.reddit.com/r/ournem)
-[Youtube](https://www.youtube.com/channel/UCkcbZePkFpr9UFQzhYX9Tfg)
-[BTC38](http://www.btc38.com/altcoin/xem/)
-[Slack](https://nemio.slack.com/)
-[Nemflash](https://nemflash.io/)
+#### Social Media
+* [Facebook](https://www.facebook.com/ourNEM)
+* [Twitter](https://twitter.com/nemofficial)
+* [Reddit](https://www.reddit.com/r/ournem)
+* [Youtube](https://www.youtube.com/channel/UCkcbZePkFpr9UFQzhYX9Tfg)
+* [BTC38](http://www.btc38.com/altcoin/xem/)
+* [Slack](https://nemio.slack.com/)
+* [Nemflash](https://nemflash.io/)
 
 ##### Telegram
 * [NEM Red](https://t.me/nemred)
