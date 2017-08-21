@@ -13,7 +13,44 @@ An account data can be retrieved with a GET request to `/account/get` and
 passing the address in hexadecimal format, i.e. without the '-', in the
 `address` parameter. Here is a succesful request:
 
-{{< httpie "code/account_get.html" >}}
+```HTTP
+$ http 23.228.67.85:7890/account/get?address=TA6XFSJYZYAIYP7FL7X2RL63647FRMB65YC6CO3G
+
+GET /account/get?address=TA6XFSJYZYAIYP7FL7X2RL63647FRMB65YC6CO3G HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: 23.228.67.85:7890
+User-Agent: HTTPie/0.9.2
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "account": {
+        "address": "TA6XFSJYZYAIYP7FL7X2RL63647FRMB65YC6CO3G", 
+        "balance": 99784000000, 
+        "harvestedBlocks": 0, 
+        "importance": 0.00021510404390950709, 
+        "label": null, 
+        "multisigInfo": {}, 
+        "publicKey": "4fe5efd97360bc8a32ec105d419222eeb714e6d06fd8b895a5eedda2b0edf931", 
+        "vestedBalance": 18958960000
+    }, 
+    "meta": {
+        "cosignatories": [], 
+        "cosignatoryOf": [], 
+        "remoteStatus": "INACTIVE", 
+        "status": "LOCKED"
+    }
+}
+```
 
 This returns the account's info:
 * address
