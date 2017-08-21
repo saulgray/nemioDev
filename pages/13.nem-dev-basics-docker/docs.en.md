@@ -29,8 +29,29 @@ many other goodies. Check its [documentation](https://httpie.org/doc) for more d
 httpie also outputs colored and readable information about the request and its response. Example in this guide will include httpie's output
 when relevant. As an example, here is the output when querying google.com, where you can see the first line is the command executed, then comes the request, followed by the response headers and the response body:
 
-{{< httpie "code/about_google.html" >}} 
+```javascript
+$ http google.com
+GET / HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: google.com
+User-Agent: HTTPie/0.9.2
 
+HTTP/1.1 302 Found
+Cache-Control: private
+Content-Length: 256
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 30 Mar 2017 19:14:26 GMT
+Location: http://www.google.be/?gfe_rd=cr&ei=ElndWMabDZPVXuW1j5AG
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>302 Moved</TITLE></HEAD><BODY>
+<H1>302 Moved</H1>
+The document has moved
+<A HREF="http://www.google.be/?gfe_rd=cr&amp;ei=ElndWMabDZPVXuW1j5AG">here</A>.
+</BODY></HTML>
+```
 
 > You can pass POST data on the command line as key-value pairs. For string value, separate key and value with `=`, for non-string values like integer, use `:=`.
 
