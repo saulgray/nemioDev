@@ -123,26 +123,26 @@ connections opened by the NanoWallet.
 You can open the Google Chrome inspctor by pressing CTRL-SHIFT-I. In the Inspector, select the `Network` tab (surrounded in screenshot), and select to only 
 display websockets by clicking on `WS` (indicated by the red arrow in the screenshot).
 If you open the inpector on a page that is loaded, you will have to reload the page as indicated:
-{{< figure src="/images/debugging_chrome_inspector.png" title="Chrome Inspector Overview" >}}
+![Chrome Inspector Overview](https://rb2nem.github.io/nem-dev-guide/images/debugging_chrome_inspector.png)
 
 When you login to the NanoWallet with the Inspector open and with the filter displaying only websocket connections, you will see
 a websocket connection established:
 
-{{< figure src="/images/debugging_ws_open.png" title="Websocket Connection opened" >}}
+![Websocket Connection opened](https://rb2nem.github.io/nem-dev-guide/images/debugging_ws_open.png)
 
 By selecting the connection in the list, you can take a closer look to the connection. By default,
 the detailed view of the connection open on the headers tab showing all headers of the connection, both for request and response:
 
-{{< figure src="/images/debugging_ws_headers.png" title="Websocket Connection Headers" >}}
+![Websocket Connection Headers](https://rb2nem.github.io/nem-dev-guide/images/debugging_ws_headers.png)
 
 The websocket connection is a persistent connection over which multiple data frames are exchanged. Luckily, the inspector lets
 us take a close look at the frames exchanged. Selecting the Frames tab gives you a list of frames exchanged over the connection.
 This list is updated automatically as new frames are exchanged:
 
-{{< figure src="/images/debugging_ws_frames.png" title="Websocket Connection Frames" >}}
+![Websocket Connection Frames](https://rb2nem.github.io/nem-dev-guide/images/debugging_ws_frames.png)
 
 Let's focus a bit on the frames list after opening a wallet in the NanoWallet client:
-{{< figure src="/images/debugging_ws_frames_list.png" title="Websocket Connection Frames List" >}}
+![Websocket Connection Frames List](https://rb2nem.github.io/nem-dev-guide/images/debugging_ws_frames_list.png)
 
 Outgoing messages have a light-green background, incoming messages have a white background. WebSocket opcodes are light-yellow
 and errors are light-red (from the [Google Chrome documentation](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#frames)).
@@ -164,7 +164,7 @@ Following that are some frames received in relation with the 9 subscriptions jus
 received is part of `sub-0`
 
 Selecting a frame in that list will display its content:
-{{< figure src="/images/debugging_ws_details.png" title="Websocket Frame Details" >}}
+![Websocket Frame Details](https://rb2nem.github.io/nem-dev-guide/images/debugging_ws_details.png)
 
 But here is the result is far from great. The frame's content is just displayed on one line, which does not ease 
 reading and analysing the frame....
