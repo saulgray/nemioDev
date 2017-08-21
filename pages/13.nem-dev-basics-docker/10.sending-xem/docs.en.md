@@ -200,12 +200,12 @@ at [http://localhost:8081](http://localhost:8081). Here is a screenshot:
 We see that the payload is a JSON object with fields data and signature. The `data` field is the serialised trnsaction, and the NIS API documentation
 explains [how to generated the signature](http://bob.nem.ninja/docs/#creating-a-signed-transaction).
 
-{{% notice tip %}}
-If you want to take a look at the internals of nem-sdk, here is some details on the serialisation and signature of transactions.
+
+> If you want to take a look at the internals of nem-sdk, here is some details on the serialisation and signature of transactions.
 The serialisation is done with a call to `nem.utils.serialization.serializeTransaction(transactionEntity);` and the serialised transaction
 is then encode with a call to `nem.utils.convert.ua2hex(serialized)`.
 The signature is applied to the serialised transaction.
-{{% /notice %}}
+
 
 When our transaction has been received by NIS, it is in state unconfirmed, until it it included in a block.
 
