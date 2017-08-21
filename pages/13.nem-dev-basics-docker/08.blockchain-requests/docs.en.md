@@ -191,7 +191,54 @@ txId: 06c19b8c53838fdaefb4a04126bc78e0c3ab90db48d8dba43f2063bb02139d69
 block: 1002581
 ```
 We see the `txId` which is the hash of the transaction we will need to get. Let's download that transaction:
-{{< httpie "code/blockchain_tx_apostile_0.6.84.html">}}
+
+```HTTP
+$ http http://bigalice3.nem.ninja:7890/transaction/get?hash=06c19b8c53838fdaefb4a04126bc78e0c3ab90db48d8dba43f2063bb02139d69
+
+GET /transaction/get?hash=06c19b8c53838fdaefb4a04126bc78e0c3ab90db48d8dba43f2063bb02139d69 HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: bigalice3.nem.ninja:7890
+User-Agent: HTTPie/0.9.2
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "meta": {
+        "hash": {
+            "data": "06c19b8c53838fdaefb4a04126bc78e0c3ab90db48d8dba43f2063bb02139d69"
+        }, 
+        "height": 1002581, 
+        "id": 667140, 
+        "innerHash": {}
+    }, 
+    "transaction": {
+        "amount": 0, 
+        "deadline": 60727263, 
+        "fee": 18000000, 
+        "message": {
+            "payload": "fe4e54590318b3ce5de42067de2af1da69bb082b6c05a425198f407a392cba3bdae5c3b686", 
+            "type": 1
+        }, 
+        "recipient": "NCZSJHLTIMESERVBVKOW6US64YDZG2PFGQCSV23J", 
+        "signature": "bc7676f2ba4cb1d88110956b6b21dcf2356b2f86e47c44359a88a74d3d12e6a918fa5a920aff94af7d0984f644a51e18aa2a24bc1890cabad2f3fd2c9f79340e", 
+        "signer": "826cedee421ff66e708858c17815fcd831a4bb68e3d8956299334e9e24380ba8", 
+        "timeStamp": 60723663, 
+        "type": 257, 
+        "version": 1744830465
+    }
+}
+```
 
 We see that the transaction we have downloaded is well from the block as advertised in the `.sig` file. 
 The interesting part is the payload of the transaction, which is `fe4e54590318b3ce5de42067de2af1da69bb082b6c05a425198f407a392cba3bdae5c3b686`.
