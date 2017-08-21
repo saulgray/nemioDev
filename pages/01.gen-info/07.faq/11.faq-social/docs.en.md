@@ -20,6 +20,7 @@ taxonomy:
 * [Nemberia](https://t.me/nemberia)
 	* More relaxed NEM discussions, price speculation
 * [NEM Help Desk](https://t.me/nemhelpdesk)
+ 	* Get help with XEM related issues
 
 ##### Region specific Telegram Groups
 [NEM France (was 22, now 27 members)](https://t.me/nemfrance)
