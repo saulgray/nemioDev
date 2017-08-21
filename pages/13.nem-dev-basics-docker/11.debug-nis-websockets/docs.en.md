@@ -53,7 +53,7 @@ header `application/x-www-form-urlencoded`.
 
 Clicking on the Response link of the right tab shows this:
 ![](https://rb2nem.github.io/nem-dev-guide/images/debugging_mitmweb_step1_response.png)
-This is already mugh more informative. It means our request sent its data in an encoding not supported
+This is already much more informative. It means our request sent its data in an encoding not supported
 by the server.
 
 We can fix this by setting the content type header to json and ensure we send a json payload:
@@ -78,16 +78,16 @@ RestClient::InternalServerError: 500 Internal Server Error
 	from /usr/bin/irb:11:in `<main>'
 ```
 
-{{< figure src="/images/debugging_mitmweb_response_property_value.png" title="Wrong Property Value Response" >}}
+![](https://rb2nem.github.io/nem-dev-guide/images/debugging_mitmweb_response_property_value.png)
 It reports a incompatible value for the property height. Looking at the request details, we have:
-{{< figure src="/images/debugging_mitmweb_request_details.png" title="Request details" >}}
+![](https://rb2nem.github.io/nem-dev-guide/images/debugging_mitmweb_request_details.png)
 We see at the bottom that the text passed as value is valid JSON. If we don't see what's wrong here, 
 we can send the same request with a tool that gave a succesful response. In our case, this is [a request
 we already sent](/04-blockchain-requests/#getting-a-block-at-height-post-block-at-public) with httpie.
 We know that issuing the command `http :7890/block/at/public height:=243` yields a successful result.
 Let's just issue that command and look at the request headers. Here are the details of the request sent by
 httpie:
-{{< figure src="/images/debugging_mitmweb_httpie_request.png" title="Successful request with httpie" >}}
+![](https://rb2nem.github.io/nem-dev-guide/images/debugging_mitmweb_httpie_request.png)
 Did you spot the difference? Httpie sent
 ``` json
 {
