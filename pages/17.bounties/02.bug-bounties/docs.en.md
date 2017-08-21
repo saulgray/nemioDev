@@ -1,5 +1,6 @@
 ---
 title: 'Bug Bounties'
+published: false
 taxonomy:
     category:
         - docs
