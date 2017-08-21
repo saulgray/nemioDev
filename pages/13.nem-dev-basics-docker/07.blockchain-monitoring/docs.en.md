@@ -150,16 +150,9 @@ else
 fi
 ```
  
-Putting all this in a script results in this. You can select another tab to see
-the same implementation in that language:
-
-{{% tabs %}}
-  {{% tab_header "Bash" "activetab" %}}
-  {{% tab_header "Ruby" ""%}}
-{{% /tabs %}}
-
-{{< tabs_content >}}
-  {{% tab_pane "Bash" %}}```
+Putting all this in a script results in this.
+##### Bash
+```bash
 #!/bin/bash
 
 observed_address="TA6XFSJYZYAIYP7FL7X2RL63647FRMB65YC6CO3G"
@@ -183,10 +176,7 @@ while true; do
     fi
 done
 ```
-  {{% /tab_pane %}}
 
-
-  {{% tab_pane "Ruby" %}}
 ``` ruby
 require 'rest-client'
 require 'json'
@@ -209,14 +199,6 @@ while true
   end
 end
 ```
-  {{% /tab_pane %}}
-
-{{< /tabs_content >}}
-
-
-
-
-
 
 ### Slow polling
 
