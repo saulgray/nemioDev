@@ -187,38 +187,38 @@ It is free software, available for Linux, Mac and Windows.
 
 When you start Wireshark, you will not start a live capture but open the existing capture file available in the persistent
 location you configured. But as that file is continuously updated, you will git this error:
-{{< figure src="/images/debugging_wireshark_truncated_file.png" title="Wireshark Warning" >}}
+![Wireshark Warning](https://rb2nem.github.io/nem-dev-guide/images/debugging_wireshark_truncated_file.png)
 
 This is not a problem for our analysis, it just means that we have openen a file in which the last packet was not completely
 written to disk. All packets in the trace are usable though, and will give us a detailed view on the websocket traffic.
 
 When you open the traces file, you get something like this:
-{{< figure src="/images/debugging_wireshark_overview.png" title="Wireshark window" >}}
+![Wireshark Window](https://rb2nem.github.io/nem-dev-guide/images/debugging_wireshark_overview.png)
 Each line is a TCP packet, and aggregated views for supported protocols (like HTTP, websocket, etc)  also have a line displayed.
 We are only interested in websocket traffic, so we can filter to only display the lines of interest. Enter `websocket` in the
 text field at the top of the list and press enter:
-{{< figure src="/images/debugging_wireshark_websocket_filter.png" title="Wireshark filter" >}}
+![Wireshark Filter](https://rb2nem.github.io/nem-dev-guide/images/debugging_wireshark_websocket_filter.png)
 This result in the list only displaying websocket protocol information, offering a higher level view than the TCP packets,
 in which we are not interested for our analysis.
 
 As in our analysis with Google Chrome, we see the CONNECT packet sent by our browser:
-{{< figure src="/images/debugging_wireshark_connect.png" title="Websocket CONNECT" >}}
+![Websocket CONNECT](https://rb2nem.github.io/nem-dev-guide/images/debugging_wireshark_connect.png)
 We know that this frame is sent by our client, so we deduce that the server address is 172.18.0.3, and the client address
 is 172.18.0.2.
 Following by the CONNECT request, we receive a CONNECTED message confirming our websocket connection is successfully established:
-{{< figure src="/images/debugging_wireshark_connected.png" title="Websocket CONNECTED" >}}
+![Websocket CONNECTED](https://rb2nem.github.io/nem-dev-guide/images/debugging_wireshark_connected.png)
 
 We also see the subscription request being sent:
 
-{{< figure src="/images/debugging_wireshark_subscribe_one.png" title="Websocket Connection Frames List" >}}
+![Websocket Connection Frames List](https://rb2nem.github.io/nem-dev-guide/images/debugging_wireshark_subscribe_one.png)
 
 The first request is displayed individually, but the other subscription requests are grouped in one entry:
-{{< figure src="/images/debugging_wireshark_subscribe_multiple.png" title="Websocket Connection Frames List" >}}
+![Websocket Connection Frames List](https://rb2nem.github.io/nem-dev-guide/images/debugging_wireshark_subscribe_multiple.png)
 
 After that are the SEND command sent by the client:
-{{< figure src="/images/debugging_wireshark_send.png" title="Websocket SEND commands" >}}
+![Websocket SEND commands](https://rb2nem.github.io/nem-dev-guide/images/debugging_wireshark_send.png)
 and the MESSAGEs received from the server:
-{{< figure src="/images/debugging_wireshark_message.png" title="Websocket MESSAGE answers" >}}
+![Websocket MESSAGE answers](https://rb2nem.github.io/nem-dev-guide/images/debugging_wireshark_message.png)
 
 But here again, the display is not perfect, but this description should help you get up to speed regarding the debugging of
 your websocket requests.
