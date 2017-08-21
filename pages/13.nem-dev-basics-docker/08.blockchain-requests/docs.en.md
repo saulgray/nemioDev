@@ -15,19 +15,123 @@ Note that it takes some time for your NIS instance to got through the whole bloc
 
 Here is a sample run:
 
-{{< httpie "code/blockchain_height.html" >}}
+```HTTP
+$ http :7890/chain/height
+
+GET /chain/height HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: localhost:7890
+User-Agent: HTTPie/0.9.2
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "height": 35811
+}
+```
 
 
 ## Getting the last block (/chain/last-block)
 
 The response to this request holds the last block known by the NIS instance interrogated.
 
-{{< httpie "code/blockchain_last_block.html" >}}
+```HTTP
+$ http :7890/chain/last-block
+
+GET /chain/last-block HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: localhost:7890
+User-Agent: HTTPie/0.9.2
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "height": 88611, 
+    "prevBlockHash": {
+        "data": "1fdc88a8d4077f39cffc382934b60d9cc9a8a36c9836c944b930cc3ed88f1bd1"
+    }, 
+    "signature": "4fe78e41c6b5f497b4f2d45d2d049dbde6fb46eb8eb076bbedcf50c77c2bf5349ef42e83183ffae9f2fbafe38b57c76485c11f2434e40c84c2e83bd276bb8e00", 
+    "signer": "f60ab8a28a42637062e6ed43a20793735c58cb3e8f3a0ab74148d591a82eba4d", 
+    "timeStamp": 6193224, 
+    "transactions": [], 
+    "type": 1, 
+    "version": -1744830463
+}
+```
 
 However, as is the case here, the probability to get an empty list of transactions on the testnet is quite high.
 We can repeat this query on the mainnet, using [another server](http://chain.nem.ninja/#/nodes) than the one running in our docker container:
 
-{{< httpie "code/blockchain_last_block_main.html" >}}
+```HTTP
+$ http 85.25.36.97:7890/chain/last-block
+
+GET /chain/last-block HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: 85.25.36.97:7890
+User-Agent: HTTPie/0.9.2
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "height": 1051051, 
+    "prevBlockHash": {
+        "data": "35e2b73c979f733ac401c78efdf8d7e8fbd951f766d7334bc8a2fd5ebc8815ce"
+    }, 
+    "signature": "58c9f1324fed656dfe5539b60e1116c19a1414386475957eda9108c6bdfbe35a7e7ffc413e963bf690e0612b750004f66e12b11656bd53a3326cae3fc9c99e0c", 
+    "signer": "14a9611f2913233fc74d97654ae88626a816249bd77e0bd9b3f53276ac6bed9e", 
+    "timeStamp": 63656860, 
+    "transactions": [
+        {
+            "amount": 57713397132, 
+            "deadline": 63657452, 
+            "fee": 40000000, 
+            "message": {
+                "payload": "39643365386337316464376631366532", 
+                "type": 1
+            }, 
+            "recipient": "NBZMQO7ZPBYNBDUR7F75MAKA2S3DHDCIFG775N3D", 
+            "signature": "220ff8e40445c731f9a898efe165815e1f49a2038738dd60f2545f4fe11f6eed1d074bcf28a06f576d892ce094a2b2730c066f830b6eb23ef0cdbaf7ade1680d", 
+            "signer": "a025abd5dd0f0e9f226c4673be03a5a3d72cb95b8acd39fe4f2f2c2fb2d1b9ec", 
+            "timeStamp": 63656852, 
+            "type": 257, 
+            "version": 1744830465
+        }
+    ], 
+    "type": 1, 
+    "version": 1744830465
+}
+```
 
 We will take a closer look to the transaction data in a later section.
 
