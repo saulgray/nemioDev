@@ -52,7 +52,7 @@ host nemdevnis (the container running our NIS instance) with a content type
 header `application/x-www-form-urlencoded`.
 
 Clicking on the Response link of the right tab shows this:
-{{< figure src="/images/debugging_mitmweb_step1_response.png" title="Response Headers" >}}
+![](https://rb2nem.github.io/nem-dev-guide/images/debugging_mitmweb_step1_response.png)
 This is already mugh more informative. It means our request sent its data in an encoding not supported
 by the server.
 
