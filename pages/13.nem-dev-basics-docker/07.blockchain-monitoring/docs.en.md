@@ -61,8 +61,70 @@ block=$(http :7890/chain/last-block)
 This will retrieve the last block in a json document. Here is an example from the mainnet chain showing the format of the document
 retrieved.
 
-{{< httpie "code/monitoring_last_block.html" >}}
+```HTTP
+$ http 199.217.112.135:7890/chain/last-block
 
+GET /chain/last-block HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: 199.217.112.135:7890
+User-Agent: HTTPie/0.9.8
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+{
+    "height": 1106506, 
+    "prevBlockHash": {
+        "data": "00f421e0b9a8c449bc37f0e19c21c5b1a1c24258eed8d347b0351ff2fe20078e"
+    }, 
+    "signature": "96a8b050cd0ae341da7ea3aafa11a966821c2e3d0b614800a6d53fe6e5bbf5f2730c64d7f80b43898e1cb3eb0048e7a65f09bee591decfc07092d068064a7804", 
+    "signer": "8ca523bd39f350799b0cc150055b713bd7c65e9bbc94b90502c973a47730a431", 
+    "timeStamp": 67011602, 
+    "transactions": [
+        {
+            "amount": 133400000000, 
+            "deadline": 67033173, 
+            "fee": 14000000, 
+            "message": {
+                "payload": "39333630383163323265303031636336", 
+                "type": 1
+            }, 
+            "recipient": "NBZMQO7ZPBYNBDUR7F75MAKA2S3DHDCIFG775N3D", 
+            "signature": "9240c0fc833d2ae351ea2ef5e5b2723ee9e7df87c05c40d754f232a7c58666b556dbfda1ab3804a5d91877e868017e3c7c9b8cd3a23f8fe045668b568c36ab01", 
+            "signer": "5d348ef8fa3cacd0fdc6a1532e47d92bb01cc119045b19940fdd9daac7e36890", 
+            "timeStamp": 67011573, 
+            "type": 257, 
+            "version": 1744830465
+        }, 
+        {
+            "amount": 347000000, 
+            "deadline": 67015172, 
+            "fee": 6000000, 
+            "message": {
+                "payload": "4e6f64652072657761726473207061796f75743a20726f756e6420323032312d32303234", 
+                "type": 1
+            }, 
+            "mosaics": [], 
+            "recipient": "NBKQSUMBKTSFBQ3AMXAZMRNONDXQFQAABYFIMPV4", 
+            "signature": "cffee2a656befe6bb30652e2d8716680931e4b892164319ad6299c0a9875088d7efd5a7f17765277948d42ae1a146c8f99903904c4563fcf16c3e40f9db4880e", 
+            "signer": "d96366cdd47325e816ff86039a6477ef42772a455023ccddae4a0bd5d27b8d23", 
+            "timeStamp": 67011572, 
+            "type": 257, 
+            "version": 1744830466
+        }
+    ], 
+    "type": 1, 
+    "version": 1744830465
+}
+```
 
 Parsing that with jq is easy. The height of the block retrieved is available in the top level property `height`, extract with jq using the
 filter `.height`. As the JSON describing the last block is saved in variable `$block`, we can simply pipe it to jq
