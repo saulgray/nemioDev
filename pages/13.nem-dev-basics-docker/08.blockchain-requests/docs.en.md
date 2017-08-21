@@ -11,7 +11,7 @@ In this chapter we'll send [blockchain related requests](http://bob.nem.ninja/do
 
 The response to this request just contains the height of the blockchain as known by our NIS instance.
 If you repeat this query just after starting your node, you will see the height returned vary rapidly.
-Note that it takes some time for your NIS instance to got through the whole blockchain after start up.l v 
+Note that it takes some time for your NIS instance to got through the whole blockchain after start up.
 
 Here is a sample run:
 
@@ -24,8 +24,6 @@ Accept-Encoding: gzip, deflate
 Connection: keep-alive
 Host: localhost:7890
 User-Agent: HTTPie/0.9.2
-
-
 
 HTTP/1.1 200 OK
 Access-Control-Allow-Headers: Content-Type
@@ -143,7 +141,42 @@ You can request a block at a particular height. Not that this is a POST request,
 ```
 
 Here is an example query:
-{{< httpie "code/blockchain_block_at.html" >}}
+```HTTP
+$ http :7890/block/at/public height:=243
+
+POST /block/at/public HTTP/1.1
+Accept: application/json
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Content-Length: 15
+Content-Type: application/json
+Host: localhost:7890
+User-Agent: HTTPie/0.9.2
+
+{
+    "height": 243
+}
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Server: Jetty(9.2.11.v20150529)
+Transfer-Encoding: chunked
+
+{
+    "height": 243, 
+    "prevBlockHash": {
+        "data": "307729f94d6f38a97997be33cb8bb15d4f297128f17da94f62c4356333437e6b"
+    }, 
+    "signature": "37e4d221b30d71299811ad78a10ee37ac167c4901f414c273bc35c73f99eea8d128946392cbe8cf8ba3bb16e3aa45845ed535dc5f65401c76c7e58f2642fa703", 
+    "signer": "f973d58cd550da293e52764d431edd5a04b28baa2b7b83b2e8fb7a5d3a7c398b", 
+    "timeStamp": 348897, 
+    "transactions": [], 
+    "type": 1, 
+    "version": -1744830463
+}
+```
 
 ## Getting a transaction by its hash (/transaction/get)
 
