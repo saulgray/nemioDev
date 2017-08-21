@@ -26,7 +26,7 @@ taxonomy:
 * [NEM France (was 22, now 27 members)](https://t.me/nemfrance)
 * [NEM Australia (was 38,now 41 members)](https://t.me/joinchat/AAAAAEB5SdvCtFxW8riKPg)
 * [NEM D-A-CH German (was 118,now 205 members)](http://t.me/nemgerman)
-* [NEM:: Dutch (was 30,now 37 members)https://t.me/NEMdutch)
+* [NEM:: Dutch (was 30,now 37 members)](https://t.me/NEMdutch)
 * [NEM Russia (was 949,now 1142 members)](https://t.me/NEMru)
 * [NEM Greece (was 10,now 11 members)](https://t.me/NEMgreece)
 * [NEM Italia (was 27, now 34 members)](https://t.me/nemitalia)
