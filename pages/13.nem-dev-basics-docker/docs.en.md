@@ -29,8 +29,9 @@ many other goodies. Check its [documentation](https://httpie.org/doc) for more d
 httpie also outputs colored and readable information about the request and its response. Example in this guide will include httpie's output
 when relevant. As an example, here is the output when querying google.com, where you can see the first line is the command executed, then comes the request, followed by the response headers and the response body:
 
-```javascript
+```curl
 $ http google.com
+
 GET / HTTP/1.1
 Accept: */*
 Accept-Encoding: gzip, deflate
