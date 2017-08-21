@@ -300,11 +300,9 @@ var server = new zerorpc.Server({
 server.bind("tcp://0.0.0.0:4242");
 ```
 
-{{% notice note %}}
-In the example, the client is passing the private key to be used for signing to the server. An alternative could be to defined to private key
-at the side of the signing server. You could also add limitations on the transactions that are signed, such as refusing to sign transactions
-for higher than accepted amounts.
-{{% /notice %}}
+
+> In the example, the client is passing the private key to be used for signing to the server. An alternative could be to defined to private key at the side of the signing server. You could also add limitations on the transactions that are signed, such as refusing to sign transactions for higher than accepted amounts.
+
 
 The client is developed in python, and is equally simple. It builds transaction objects, converts them to JSON formatted strings, and 
 asks the server to sign it. The response that is received is a JSON object ready to be sent to a NIS instance. Here is the complete
@@ -446,11 +444,11 @@ so 6 XEMS are sufficient, but remember that fees are set in microXEMs, so we set
 transactionEntity.fee=6000000
 ```
 
-{{% notice warning %}}
-**Be very causious when setting fees manually**. An error can easily occur, and you might end up transferring millions of XEMs 
+
+> **Be very causious when setting fees manually**. An error can easily occur, and you might end up transferring millions of XEMs 
 when you wanter to transfer only a couple of XEMs.... Some users of the NanoWallet have set the amount to transfer as the fee, 
 making a similar error in your code might be catastrophic. Always double check and validate your code in the testnet first!!!
-{{% /notice %}}
+
 
 
 With this fix in place, we can now sign and send the transaction to NIS:
