@@ -1,7 +1,8 @@
 ---
 title: 'Block & Node Explorers'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 ### Block Explorers
@@ -10,11 +11,10 @@ taxonomy:
 
 ### Node Explorers
 *  [nodeexplorer.com](https://nodeexplorer.com/)
-* .[nemnodes.org](https://nemnodes.org/monitor/)
+*  [nemnodes.org](https://nemnodes.org/monitor/)
 
 ### Account Explorer
-* [nember.ru](http://nember.ru/#/)
+*  [nember.ru](http://nember.ru/#/)
 
 ### Testnet Explorer
-* [bob.nem.ninja](http://bob.nem.ninja:8765/#/blocks/0)
-* 
+*  [bob.nem.ninja](http://bob.nem.ninja:8765/#/blocks/0)
