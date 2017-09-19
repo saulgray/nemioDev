@@ -1,7 +1,8 @@
 ---
 title: 'Namespaces and Mosaics'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 ####Mosaics and Namespaces
@@ -74,7 +75,7 @@ In the initial roll out of Namespaces and Mosaics, the new NEM light wallet supp
 
 You can download the latest lightwallet version from the bob.nem.ninja repository.  If the file is password protected, the password is "nem".  
 
-Fees for making a namespace or mosaic are 50,000 XEM and the fee for making a sub-namespace is 5,000 XEM.  
+Fees for making a namespace or mosaic are 100 XEM and the fee for making a sub-namespace is 10 XEM.  
 
 ####Transferring Namespaces
 At this point in time ownership of namespaces and/or mosaic editing rights attached to a namespace are not directly transferable through the blockchain.  You can however create a 1-of-1 multisig account, which is essentially a delegate account of your primary account.  That account's private key will be muted and all control of all transactions for that account will be transferred to the issuer's primary account.  But NEM's multisig feature allows editing of the delegation of signers.  This now means that a user may then transfer all rights of their primary account over a delegate account to any third party by assigning that third party's main account to be the new 1-of-1 signer.  Once completed that third parties primary account now holds the namespace and mosaic editing rights as well as full control over all activities for that account.  
