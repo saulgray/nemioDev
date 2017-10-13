@@ -8,6 +8,8 @@ taxonomy:
 Below are a list of Community built wrappers for NEM's API. These wrappers make it easy to start building apps in your prefered language.
 
 ### NIS Wrappers
+##### Java
+[plugin:embed](https://github.com/NEMPH/nem-apps-lib)
 ##### C Sharp
 [plugin:embed](https://github.com/NemProject/csharp2nem)
 ##### Javascript
