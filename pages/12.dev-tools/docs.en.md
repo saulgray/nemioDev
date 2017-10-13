@@ -7,6 +7,8 @@ taxonomy:
 
 ##### NEM Modules (Java)
 [plugin:embed](https://github.com/NemProject/nem.modules)
+[plugin:embed](https://github.com/NEMPH/nem-transaction-monitor)
+[plugin:embed](https://github.com/NEMPH/nem-fiatxem-converter)
 ##### nem-utils (Javascript)
 [plugin:embed](https://github.com/evias/nem-utils)
 ##### nem-apps (Java)
