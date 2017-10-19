@@ -12,8 +12,10 @@ Below are a list of Community built wrappers for NEM's API. These wrappers make 
 [plugin:embed](https://github.com/NemProject/csharp2nem)
 ##### Javascript
 [plugin:embed](https://www.npmjs.com/package/nem-api)
+[plugin:embed](https://www.npmjs.com/package/nem-sdk)
 ##### NodeJS
 [plugin:embed](https://github.com/NemProject/nodejs2nem)
+[plugin:embed](https://github.com/evias/nem-cli)
 ##### Ruby
 [plugin:embed](https://github.com/44uk/nis-ruby)
 ##### PHP
