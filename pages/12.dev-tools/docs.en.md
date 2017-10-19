@@ -7,8 +7,8 @@ taxonomy:
 
 ##### NEM Modules (Java)
 [plugin:embed](https://github.com/NemProject/nem.modules)
-##### nem-utils (Javascript)
-[plugin:embed](https://github.com/evias/nem-utils)
+##### nem-cli (Node.js)
+[plugin:embed](https://github.com/evias/nem-cli)
 ##### nem-apps (Java)
 [plugin:embed](https://github.com/NEMChina/nem-apps)
 ##### NEMTools (PHP)
