@@ -5,10 +5,10 @@ taxonomy:
         - docs
 ---
 
-##### NEM Modules (Java)
-[plugin:embed](https://github.com/NemProject/nem.modules)
-##### nem-utils (Javascript)
-[plugin:embed](https://github.com/evias/nem-utils)
+* NEM Modules (Java)
+	[github.com/NemProject/nem.modules](https://github.com/NemProject/nem.modules)
+* nem-utils (Javascript)
+	[github.com/evias/nem-utils](https://github.com/evias/nem-utils)
 ##### nem-apps (Java)
 [plugin:embed](https://github.com/NEMChina/nem-apps)
 ##### NEMTools (PHP)
@@ -19,3 +19,5 @@ taxonomy:
     
 * NEM Library (Ionic2) 
 	[plugin:embed](https://github.com/guillemsole/nem-library-ionic2-seed)
+* Go
+	[github.com/RobertoSnap/nemcrawler](https://github.com/RobertoSnap/nemcrawler)
