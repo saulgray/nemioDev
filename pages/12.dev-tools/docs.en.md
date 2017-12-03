@@ -18,6 +18,6 @@ taxonomy:
 * NEM Library (Angular2)
 	[github.com/guillemsole/nem-library-angular2-seed](https://github.com/guillemsole/nem-library-angular2-seed)
 * NEM Library (Ionic2) 
-	[plugin:embed](https://github.com/guillemsole/nem-library-ionic2-seed)
+	[github.com/guillemsole/nem-library-ionic2-seed](https://github.com/guillemsole/nem-library-ionic2-seed)
 * NEM Crawler (Go)
 	[github.com/RobertoSnap/nemcrawler](https://github.com/RobertoSnap/nemcrawler)
