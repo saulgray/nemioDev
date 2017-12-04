@@ -6,17 +6,13 @@ taxonomy:
 ---
 
 Monitoring the blockchain is possibly an important part of your application on NEM. The most obvious example being
-monitoring activities involving your account. Two approaches are possible. 
+monitoring activities involving your account.
 
-The first is polling, meaning that regularly
-you retrieve the last block and handle it. If your polling interval is significantly smaller than the average block generation
-time, you can be sure you will handle all blocks. And if your polling interval is bigger and multiple blocks have been generated
-between two polling, you can still request all new blocks in your handler. This approach has downsides, notably that the client
-is regularly sending queries, even if activity of interest to the poller occured on the blockchain. This means that the scalability
-of this approach is limited. But its development is very easy and might be sufficient in most cases.
+Two approaches are available:
 
-The second way is subscribing to notifications from the NIS instance you connect to. This is done with websockets. This is the way it is 
-done in the NanoWallet. This is a cleaner approach, but is a bit more complex.
+- With **polling**, you regularly retrieve the latest block and handle it. If your polling interval is significantly smaller than the average block generation time, you can be sure to handle all blocks. If your polling interval is bigger and multiple blocks have been generated between two pollings, you can still request all new blocks in your handler. This approach has its downsides: If the time between the queries is too long, the poller only knows about the activity of interest that occured on the blockchain after a delay. Similarily, if the time between polling requests is too short, the poller wastes resources by sending a lot of requests although nothing interesting happened. Therefore, the scalability of this approach is limited. Its development, however, is very easy and might be sufficient in most cases.
+
+- The cleaner approach is to **subscribe** to notifications on the NIS instance you connect to. This is done using websockets. It's also the approach NanoWallet uses. However, it is a bit more complex.
 
 ## Active monitoring: the polling approach
 
@@ -291,7 +287,7 @@ end
 ```
 ## Passive monitoring: the subscription approach
 While in the previous sections our program was actively contacting our NIS instance to check if action should be taken
-because a new block was generated, we can use a passive approach in which our program subscribes to notification of
+because a new block was generated, we can use a passive approach in which our program subscribes to notifications on
 specific events. This is done over a websocket connection.
 
 The NEM Infrastructure Server listens for websocket connections on port 7778. It expects [STOMP](https://stomp.github.io/) formatted
