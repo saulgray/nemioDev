@@ -12,7 +12,7 @@ taxonomy:
 * NEM Fiat-XEM Converter (Java)
     [github.com/NEMPH/nem-fiatxem-converter](https://github.com/NEMPH/nem-fiatxem-converter)
 * nem-utils (Javascript)
-	[github.com/evias/nem-utils](https://github.com/evias/nem-utils)
+	[github.com/evias/nem-utils](https://github.com/evias/nem-cli)
 * nem-apps (Java)
 	[github.com/NEMChina/nem-apps](https://github.com/NEMChina/nem-apps)
 * NEMTools (PHP)
