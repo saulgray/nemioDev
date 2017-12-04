@@ -11,7 +11,7 @@ taxonomy:
     [github.com/NEMPH/nem-transaction-monitor](https://github.com/NEMPH/nem-transaction-monitor)
 * NEM Fiat-XEM Converter (Java)
     [github.com/NEMPH/nem-fiatxem-converter](https://github.com/NEMPH/nem-fiatxem-converter)
-* nem-utils (Javascript)
+* nem-utils (NodeJS)
 	[github.com/evias/nem-utils](https://github.com/evias/nem-cli)
 * nem-apps (Java)
 	[github.com/NEMChina/nem-apps](https://github.com/NEMChina/nem-apps)
