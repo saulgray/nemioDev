@@ -9,6 +9,8 @@ Below are a list of Community built wrappers for NEM's API. These wrappers make 
 
 ### NIS Wrappers
 
+* Python
+  * [github.com/semolex/nis-python-client](https://github.com/semolex/nis-python-client)
 * Java
   * [github.com/NEMPH/nem-apps-lib](https://github.com/NEMPH/nem-apps-lib)
 * C#
