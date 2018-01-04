@@ -5,8 +5,8 @@ taxonomy:
         - docs
 ---
 
-* NEM Dev 101 (https://forum.nem.io/t/nem-development-101-episode-01-java-git-maven-nem-core/1656)
-* NEM Dev 102 (https://forum.nem.io/t/nem-development-101-episode-02-idea-intellij-nem-core-vanity-gen/1665)
+* NEM Dev 101 [](https://forum.nem.io/t/nem-development-101-episode-01-java-git-maven-nem-core/1656)
+* NEM Dev 102 [](https://forum.nem.io/t/nem-development-101-episode-02-idea-intellij-nem-core-vanity-gen/1665)
 ##### Host a NIS Node on VPS
 [plugin:embed](https://forum.nem.io/t/nem-supernode-command-line-tutorial-for-debian-8-4/2211)
 ##### Host a NIS Node on Raspberry Pi
