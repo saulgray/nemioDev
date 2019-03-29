@@ -1,5 +1,6 @@
 ---
 title: '2019 Q2 (Dragon)'
+published: true
 ---
 
 #### NEM Developer Center (Catapult)
