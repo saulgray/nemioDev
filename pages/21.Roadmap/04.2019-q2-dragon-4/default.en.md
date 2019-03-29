@@ -1,5 +1,5 @@
 ---
-title: '2019 late Q3 - early Q5'
+title: '2019 Q4'
 published: true
 ---
 
