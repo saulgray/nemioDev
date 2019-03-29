@@ -9,8 +9,8 @@ title: 'NEM Catapult Testnet'
 #### Block Explorers
 * [Block Explorer 1](http://40.90.163.184:8000/#/blocks/0) 
 * [Block Explorer 2](http://13.114.200.132:8000/#/blocks/0)
-* [Block Explorer 3](http://13.114.200.132:8000/#/blocks/0)
-* [Block Explorer 4](http://13.114.200.132:8000/#/blocks/0)
+* [Block Explorer 3](http://52.194.207.217:8000/#/blocks/0)
+* [Block Explorer 4](http://47.107.245.217:8000/#/blocks/0)
 
 #### Node Explorer
 * [NEM Network Explorer](http://3.17.139.170:8080/)
