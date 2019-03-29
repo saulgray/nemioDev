@@ -11,3 +11,9 @@ title: 'NEM Catapult Testnet'
 * [Block Explorer 2](http://13.114.200.132:8000/#/blocks/0)
 * [Block Explorer 3](http://13.114.200.132:8000/#/blocks/0)
 * [Block Explorer 4](http://13.114.200.132:8000/#/blocks/0)
+
+#### Node Explorer
+* [NEM Network Explorer](http://3.17.139.170:8080/)
+
+#### Node List
+* [List of Verified Nodes](https://docs.google.com/document/d/1xYL59BRr8K5YTddErB4hxP7N6CScF6othJ4rjE5yIpA/edit)
