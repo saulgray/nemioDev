@@ -9,8 +9,7 @@ published: true
 | Lightning Network Proof of Concept | A very basic working demonstration of integrating NEM Catapult into the Lightning network. |
 | BTC and ETH Cross-Chain Swap Proof of Concept | A working demonstration of cross-chain swaps on NEM Catapult. |
 | SDKs, Round 2 | Increased investment in SDK development. |
-| POS+ Consensus Algorithm | **AVAILABLE ONLY ON NEM CATAPULT**
-A new algorithm makes NEM much faster and more scalable, while preserving important features of POI. The NEM Foundation will help to give feedback to POS+ and will document and provide educational materials about it once it is finished.  |
+| POS+ Consensus Algorithm | **AVAILABLE ONLY ON NEM CATAPULT** A new algorithm makes NEM much faster and more scalable, while preserving important features of POI. The NEM Foundation will help to give feedback to POS+ and will document and provide educational materials about it once it is finished.  |
 | Catapult Release Candidate | A freeze will be put on the Catapult code for adding new features after the release of Elephant. The NEM Foundation will help to test this RC and make sure documentation, SDKs, apps, and services are ready for launch during the freeze time. |
 
 
