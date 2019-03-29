@@ -10,8 +10,8 @@ NEM’s upcoming core engine release is named Catapult. It will represent the in
 This roadmap represents the NEM Foundation’s best information based on our plans to support NEM with the Catapult core. A more in-depth technical review of the core features being implemented on Catapult can be found on the [Catapult Server Github](https://github.com/nemtech/catapult-server/issues) and the [NEM Development Center](https://nemtech.github.io/concepts/account.html).  
 
 #### Roadmap Translations
-[Japanese](https://docs.google.com/document/d/1Ws82lY3iGiiOHRuTEfMKevqQ-Js0yCUpcItwVR9_Xlg/edit?usp=sharing)
-[Mandarin](https://docs.google.com/document/d/1TU3EIQ66YOxph-a9QIZt5gK4gBuQw0PGrd5daQWh-l0/edit)
-[Spanish](https://docs.google.com/document/d/1JcJ0T9PpOppDek7F82vWWb1n4SOa5838DmbjIhfogxk/edit?usp=sharing)
-[Russian](https://nemnews.io/dorozhnaja-karta-i-catapult-nem/)
-[Italian](https://nemitalia.io/catapult-roadmap-e-visione-nem/)
+* [Japanese](https://docs.google.com/document/d/1Ws82lY3iGiiOHRuTEfMKevqQ-Js0yCUpcItwVR9_Xlg/edit?usp=sharing)
+* [Mandarin](https://docs.google.com/document/d/1TU3EIQ66YOxph-a9QIZt5gK4gBuQw0PGrd5daQWh-l0/edit)
+* [Spanish](https://docs.google.com/document/d/1JcJ0T9PpOppDek7F82vWWb1n4SOa5838DmbjIhfogxk/edit?usp=sharing)
+* [Russian](https://nemnews.io/dorozhnaja-karta-i-catapult-nem/)
+* [Italian](https://nemitalia.io/catapult-roadmap-e-visione-nem/)
