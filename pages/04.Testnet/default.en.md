@@ -7,7 +7,7 @@ title: 'NEM Catapult Testnet'
 * [Wallet](http://nfwallet.z31.web.core.windows.net/) - The easiest way to get started with using the Catapult Testnet Blockchain
 
 #### Block Explorers
-* [Block Explorer 1](http://40.90.163.184:8000/#/blocks/0) - Block Explorer /#1
-* [Block Explorer 1](http://40.90.163.184:8000/#/blocks/0) - Block Explorer /#1
-* [Block Explorer 1](http://40.90.163.184:8000/#/blocks/0) - Block Explorer /#1
-* [Block Explorer 1](http://40.90.163.184:8000/#/blocks/0) - Block Explorer /#1
+* [Block Explorer 1](http://40.90.163.184:8000/#/blocks/0) 
+* [Block Explorer 2](http://13.114.200.132:8000/#/blocks/0)
+* [Block Explorer 3](http://13.114.200.132:8000/#/blocks/0)
+* [Block Explorer 4](http://13.114.200.132:8000/#/blocks/0)
