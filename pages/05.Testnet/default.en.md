@@ -8,6 +8,7 @@ title: 'NEM Catapult Testnet'
 
 #### Testnet Faucet
 * [Catapult Testnet XEM Faucet](http://nf-catapult-testnet.herokuapp.com)
+
 #### Block Explorers
 * [Block Explorer 1](http://40.90.163.184:8000/#/blocks/0) 
 * [Block Explorer 2](http://13.114.200.132:8000/#/blocks/0)
