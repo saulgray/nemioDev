@@ -1,13 +1,21 @@
 ---
-title: 'NEM Catapult Testnet'
+title: 'NEM Foundation Catapult Testnet'
 ---
 
-#### NEM Foundation's Catapult Testnet Web Wallet
-* [Tutorial]( https://forum.nem.io/t/guide-to-using-nf-catapult-testnet-beta-wallet/22045) - Learn how to interact with NEM's Catapult Testnet blockchain
-* [Wallet](http://nfwallet.z31.web.core.windows.net/) - The easiest way to get started with using the Catapult Testnet Blockchain
+NEM Foundation has launched an experimental network to showcase Catapult. 
 
-#### Testnet Faucet
-* [Catapult Testnet XEM Faucet](http://nf-catapult-testnet.herokuapp.com)
+The testnet is currently configured as a private chain. Public network capabilities will be introduced along with the publication of new development milestones.
+
+Note: The network might be offline, reset, or taken down without previous notice.  We recommend [installing your environment locally](https://github.com/tech-bureau/catapult-service-bootstrap) for learning and development purposes.
+
+Learn how to interact with NEM's Catapult Testnet blockchain
+
+#### Web Wallet
+* [Tutorial]( https://forum.nem.io/t/guide-to-using-nf-catapult-testnet-beta-wallet/22045)
+* [Wallet](http://nfwallet.z31.web.core.windows.net/)
+
+#### Faucet
+* [Catapult XEM Faucet](http://nf-catapult-testnet.herokuapp.com)
 
 #### Block Explorers
 * [Block Explorer 1](http://40.90.163.184:8000/#/blocks/0) 
