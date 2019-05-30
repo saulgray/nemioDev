@@ -8,7 +8,7 @@ The testnet is currently configured as a private chain. Public network capabilit
 
 Note: The network might be offline, reset, or taken down without previous notice.  We recommend [installing your environment locally](https://github.com/tech-bureau/catapult-service-bootstrap) for learning and development purposes.
 
-### Learn how to interact with NEM's Catapult Testnet blockchain
+##### Learn how to interact with NEM's Catapult Testnet blockchain
 
 #### Web Wallet
 * [Tutorial]( https://forum.nem.io/t/guide-to-using-nf-catapult-testnet-beta-wallet/22045)
