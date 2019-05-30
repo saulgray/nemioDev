@@ -14,7 +14,6 @@ If you have a question that isn't answered here, try asking in the NEM forums or
 
 ##### Whitepapers & Guides
 
-* [Catapult Whitepaper](https://nem.io/catapultwhitepaper.pdf) - Read about NEM's latest update.
 * [Technical Reference](https://nem.io/NEM_techRef.pdf) - Learn how NEM's algorithms and features work.
 * [Radicalizing the Equity Markets](https://nem.io/RadicalizingEquityMarket.pdf) - NEM's future role in equities.
 * [Apostille Whitepaper](https://nem.io/ApostilleWhitePaper.pdf) - Learn about NEM's integrated notarization tool.
