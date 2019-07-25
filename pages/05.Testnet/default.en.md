@@ -18,13 +18,13 @@ Note: The network might be offline, reset, or taken down without previous notice
 * [Catapult XEM Faucet](http://nf-catapult-testnet.herokuapp.com)
 
 #### Block Explorers
-* [Block Explorer 1](http://40.90.163.184:8000/#/blocks/0) 
-* [Block Explorer 2](http://13.114.200.132:8000/#/blocks/0)
-* [Block Explorer 3](http://52.194.207.217:8000/#/blocks/0)
-* [Block Explorer 4](http://47.107.245.217:8000/#/blocks/0)
+* [Block Explorer 1](http://3.1.202.148:8000/#/blocks/0)
+* [Block Explorer 2](http://52.194.207.217:8000/#/blocks/0)
+* [Block Explorer 3](http://47.107.245.217:8000/#/blocks/0)
+* [Block Explorer 4](http://13.114.200.132:8000/#/blocks/0)
 
 #### Node Explorer
 * [NEM Network Explorer](http://3.17.139.170:8080/)
 
 #### Node List
-* [List of Verified Nodes](https://docs.google.com/document/d/1xYL59BRr8K5YTddErB4hxP7N6CScF6othJ4rjE5yIpA/edit)
+* [List of Verified Nodes](https://docs.google.com/document/d/1d71R1WRFZF3Vt8xhfn1sW3N2LyarO8yf7Eb1-qagxBA/edit)
