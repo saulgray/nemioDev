@@ -3,7 +3,7 @@ title: '2020 Q1/Q2'
 published: true
 ---
 
-| **2020 Q1/Q2*\** | **New Branding Launch - Symbol/XYM** |
+| **2020 Q1/Q2** | **New Branding Launch - Symbol/XYM** |
 | ------------- | ------------- |
 | Testnet Release - Catapult Release Candidate | Updated Testnet releases are ongoing, and we are currently at 0.9.3.. Learn how to set up and run a node with this  [testnet node setup guide.](https://nemtech.github.io/guides/network/running-a-test-net-node.html#running-a-test-net-node) |
 | Symbol Branding Guideline | Release of Brand Guidelines and [Symbol Media Kit](https://forum.nem.io/t/symbol-update-11/24406) |
