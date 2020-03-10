@@ -1,6 +1,6 @@
 ---
 title: '2019 late Q3 - early Q4'
-published: true
+published: false
 ---
 
 | **2019 late Q3 - early Q4** | **Catapult Public Release** |
