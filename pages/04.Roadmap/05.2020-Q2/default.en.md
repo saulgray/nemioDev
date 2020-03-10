@@ -1,5 +1,5 @@
 ---
-title: '2020 Q1/Q2'
+title: '2020 Q1/Q2 - New Branding Launch - Symbol/XYM'
 published: true
 ---
 
