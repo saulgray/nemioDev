@@ -1,11 +1,10 @@
 ---
 title: 'What is POI'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
-![Logo of the first POI based P2P platform](http://i67.tinypic.com/15ps7sj.jpg)
- 
 ###What is POI?
 [Proof-of-Importance](http://nem.io/NEM_techRef.pdf#section.7), proof-of-work, and proof-of-stake all have one thing in common. They are all algorithms, which when applied to cryptocurrency help to maintain the order in which blocks are selected.  This becomes important when we start to think of things such as double spending. This is where money is spent more than once (fraudulently). For example, some currencies use verification of each transaction in the blockchain to prevent this.
  
