@@ -1,5 +1,5 @@
 ---
-title: '2019 Q3 - Elephant'
+title: '2019 Q3'
 published: true
 ---
 
