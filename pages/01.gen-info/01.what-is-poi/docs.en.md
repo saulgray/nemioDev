@@ -26,17 +26,15 @@ Mining (the process in which computational power is used to make new blocks), ha
  
 As technology gets better, people have to spend more money to get the latest ASICs (machines specifically for mining), meaning, even more energy is wasted.
  
- 
-![](http://i66.tinypic.com/2up9vms.jpg)
+
  
 *It is pointless to try mining with a CPU. You are competing against companies with rooms of ASICs, and electricity costs mean it is a waste of time. For example, if you had a decent CPU hash rate of 0.1kH, in one week you would not even make a cent!*
  
 Another problem is that as the rich can afford expensive ASICs, they only get richer and richer. In other words, wealth is spread very unevenly, with the top 1% in Bitcoin holding 80% of all Bitcoins (starts from 2014). Many of the richest do not actively use their money, meaning that they are contributing very little to the community.
  
 This was why the POS (Proof-of-Stake) system was introduced. It was implemented first by the well-known Peercoin cryptocurrency. Instead of conventional mining, it asks participants to prove ownership of their “stake,” or how much Peercoin they possess.
- 
-![PoW and PoS](https://i.imgur.com/Asnc9CI.png)
- 
+
+
 Larger and older sets of coins have a higher probability of signing the next block, and a lot of computing power is saved.
  
 Again, however, there are problems. Richer users are more likely to sign the next block, and the more blocks they obtain, the richer they get. The problem is the same, richer users will gain wealth much faster than others.
@@ -49,7 +47,6 @@ This means that those who actively help the economy and therefore NEM benefit, m
  
 The good thing is that this will mean much more even wealth distribution; anyone who contributes can gain extra XEM (the currency of the NEM network). NEM is great because it gives similar opportunities to everyone. The main aim is to empower regular people.
  
-![proof of Importance (PoI)](http://i.imgur.com/xNej2vZ.png)
  
 This rewarding is done through harvesting, a process in which a node will calculate blocks and they are added to the blockchain.
  
@@ -66,7 +63,6 @@ When a person first deposits XEM into an account, none of it will be vested. Aft
  
 The point of this is to build up trust; you have held your coins for a while or you have a very large amount (for example, if you have 100,000 NEM, it will take only 24 hours for you to have 10,000 vested coins).
  
-![Vested balance](http://i.imgur.com/bUwMVT9.png)
  
 Once you have enough vested coins, you can mine either through local harvesting or delegated harvesting.
  
