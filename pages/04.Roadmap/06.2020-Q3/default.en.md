@@ -1,5 +1,5 @@
 ---
-title: '2020 Q2/Q3'
+title: '2020 Q2/Q3 - Symbol Launch'
 published: true
 ---
 
