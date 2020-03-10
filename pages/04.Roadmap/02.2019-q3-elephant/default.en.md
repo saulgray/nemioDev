@@ -1,6 +1,6 @@
 ---
 title: '2019 Q3'
-published: true
+published: false
 ---
 
 | **2019 Q3** | **Catapult Testnet Codename: Elephant** |
