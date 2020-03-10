@@ -1,5 +1,5 @@
 ---
-title: '2019 Q2 - Dragon'
+title: '2019 Q2'
 published: true
 ---
 
