@@ -6,7 +6,7 @@ taxonomy:
 ---
 
 ## Download  
-The mobile Android version of the Nem wallet is downloadable for the mainnet and the testnet via the [Play Store](https://play.google.com/store/apps/details?id=org.nem.nac.mainnet&hl=en).<center>
+The mobile Android version of the Nem wallet is downloadable for the mainnet and the testnet via the [Play Store](https://play.google.com/store/apps/details?id=org.nem.nac.mainnet).<center>
 
 
 ## Install and Setup
