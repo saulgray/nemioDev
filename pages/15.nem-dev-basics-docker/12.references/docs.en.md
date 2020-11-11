@@ -27,9 +27,6 @@ Here are links that you most certainly will be interested in as a developer.
 * [nis-ruby](https://github.com/44uk/nis-ruby), a ruby client library for the NEM Infrastructure Server AP
 * [NanoSnippets](https://github.com/AtrauraBlockchain/NEM-NanoSnippets/wiki) 
 
-### Tools
-* [Harvesting calculator](http://samesake.com/xem/harvesting-calculator/)
-
 ### Testnet
 
 * [Testnet Nodes](http://bob.nem.ninja:8765/#/nodes/)
