@@ -14,23 +14,37 @@ Next up is the mosaic itself.  A mosaic is like a file hosted on a domain and re
 
 **Examples:**   
 Namespace (root level domain): spaceminers
+
 Sub-domain 1: mars
+
 Sub-domain 2: moon
 
 **Mosaics:**  
+
 <font color=gold>gold</font>
+
 <font color=red>gem</font>
+
 <font color=blue>water</font>
 
 Accordingly, mosaics can be named as such:
+
 spaceminers * <font color=gold>gold</font>
+
 spaceminers * <font color=red>gem</font>
+
 spaceminers * <font color=blue>water</font>
+
 spaceminers.mars * <font color=gold>gold</font>
+
 spaceminers.mars * <font color=red>gem</font>
+
 spaceminers.mars * <font color=blue>water</font>
+
 spaceminers.mars.moon * <font color=gold>gold</font>
+
 spaceminers.mars.moon * <font color=red>gem</font>
+
 spaceminers.mars.moon * <font color=blue>water</font>
 
 Each of the above mosaics is made unique by the namespace’s fully qualified name. Also, the mosaic is preceded by an “ * ” to differentiate it from a namespace.  
